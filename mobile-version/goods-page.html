@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/plugins/swiper.js/swiper-style.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+
+<div id="main">
+
+    <div class="header__cover">
+
+        <div class="header">
+
+            <a class="header__icons header__icons__home" href="index.html">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__menu js__headline__menuLink" data-barid="headline__barMenu__ID"
+               href="#">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__search js__headline__menuLink" href="#"
+               data-barid="headline__barSearch__ID">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__member js__headline__menuLink" href="#"
+               data-barid="headline__barLogin__ID">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__cart js__headline__menuLink js__header__basketCover" href="#"
+               data-barid="headline__barCart__ID">
+
+                <div class="header__icon header__iconColor0">
+                    <span class="itemCount">5</span>
+                </div>
+
+            </a><!-- .header__icons (end)-->
+
+
+        </div><!-- .header (end)-->
+
+    </div><!-- .header__cover (end)-->
+
+    <div id="bars_cover__ID">
+            
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barMenu__ID">
+                <ul class="mainMenu">
+                    <li class="mCM__item">
+                        <a href="./catalog.html" class="mCM__item__link mCM__item__linkArrowed catalogueLink" title="Каталог товаров">Каталог товаров </a>
+                    </li>
+                    <li class="mCM__item">
+                        <a href="#" class="mCM__item__link mCM__item__linkArrowed js_mCM_toggler" title="Как купить">Как купить</a>
+
+                        <ul class="subCategoryMenu">
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="Акции" style="padding-top: 13px">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                </ul>
+            </div><!-- .headline__bar(end) -->            
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barSearch__ID">
+                <div class="headline__barSearch__cover">
+                    <form name="head_search">
+                        <input type="submit" value="Найти" class="headSearch_inputGoGoGo button button__orange" title="Искать">
+                        <div class="headline__barSearch_cover">
+                            <input type="text" placeholder="Самокат?" name="query" value="" class="input__text headline__barSearch js__header__search__inputText" autocomplete="off">
+                        </div>
+                    </form>
+                </div>
+                <div class="header__searchFastResult js__fastSearchResultsCover"></div>
+            </div><!-- .headline__bar(end) -->
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barLogin__ID">
+                <div class="formLines js__formBox">
+                    
+                    <form action="">
+                       
+                        <div class="formLine">
+                            <div class="formLine__content">
+                                <label  class="input__textExtended">
+                                    <span>E-mail:</span>
+
+                                    <input type="text" class="input__text js__isMandatory" name="login" autofocus="">
+
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="formLine">
+                            <div class="formLine__content">
+                                <label  class="input__textExtended">
+                                    <span>Пароль:</span>
+
+                                    <input type="password" class="input__text js__isMandatory" name="password" autocomplete="new-password">
+                                    
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="formLine">
+                            <a href="#" class="formLines__registerLink" title="Забыли пароль?">Забыли пароль?</a>
+
+                            <input class="button button__orange" type="submit" name="submit" value="Вход">
+                        </div>
+
+                        <div class="formLine">
+                            <span class="gray">Нет Личного кабинета?</span>
+
+                            <a href="/member/register.html" class="" title="Зарегистрироваться">Зарегистрируйтесь</a>
+                        </div>
+
+                        <div class="gridline">
+                            
+                            <div>
+                                <a href="" title="Закладки">
+                                    <span class="compass-ic compass-heart">
+
+                                    </span>Закладки <span class="gray js__bookmarksCount">0</span></span>
+                                </a>
+                                
+                            </div>
+
+                            <div>
+                                <a href="">
+                                    <span class="ic__set ic__set__viewed18x10">
+
+                                    </span>Вы смотрели</span>
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </form>
+
+                </div>
+            </div><!-- .headline__bar(end) -->
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barCart__ID">
+                <div class="js__header__basketSticker">
+                    
+                    <div class="header__basketInfo">
+                        <a href="#" title="Оформить заказ" class="floatRight button button__clearGray active js__header__basketLink">Оформить заказ</a>
+
+                        <span class="gray">Товаров:</span>
+
+                        <b class="js__count__cart">5</b>
+
+                        <br>
+
+                        <span class="gray">На сумму:</span>
+
+                        <b>133 744 ₽</b>
+                    </div>
+
+                    <div class="header__basketSticker">
+                        <h5 class="gray">У вас 1 корзина:</h5>
+
+                        <ul>
+                            <div class="basketSticker__item basketSticker__item__color0  active ">
+                                <a href="./basket.html">
+                                    <span class="basketSticker__item__name">Основная</span>
+                                    <span class="itemCount">5</span>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- .headline__bar(end) -->
+        </div>
+
+    <div id="scrollcontent_cover__ID">
+        <div id="scrollcontent__ID">
+            <div id="head">
+                <div class="catalogLine">
+                    <div class="catalogLine__catalogCover">
+                        <ul class="catalogLineMenu js__catalogLineMenu">
+                             <li class="cLM__item cLM__item__logo">
+                                    <a href="./">
+                                        <img src=" ../assets/img/compass-logo.png" width="133" id="logo">
+                                    </a>
+                                </li>
+                            <li class="cLM__item">
+                                <a href="/catalogue/" class="cLM__item__link js__catalogLine__mainLink"
+                                   title="Каталог товаров"><span>Каталог</span></a>
+                            </li>
+                            <li class="cLM__item cLM__item__orangeAction">
+                                <a href="#" class="cLM__item__link js__catalogLine__actionLink"
+                                   title="Скидки"><span>Скидки</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalogLine__panel js__catalogLine__panel">
+                        <ul class="mainCategoryMenu">
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content  noBreadcrumbPad ">
+
+                <div class="breadcrumbs">
+                    <div class="breadcrumbs__list">
+                        <a href="#" title="POCO">
+                            <span class="ic__set ic__set__back">&nbsp;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="productPage">
+                    <div class="productPage-card">
+                        <div class="k_centered">
+                            <h1>Смартфон POCO С40 4/64GB Черный</h1>
+
+                            <div class="catalog-displayedItem-marksLine">
+                                <div>
+                                    <div class="marks">
+                                        <span title="-31%" class="mark mark-discount">-31%</span>
+                                        <span title="акция" class="mark mark-action">акция</span>
+                                    </div>
+                                    <div class="catalog-displayedItem-storeCode">
+                                        <span class="gray">Код: </span>
+                                        3221065
+                                    </div>
+                                    <a class="stars-cover">
+                                        <div class="starsSVG stars5">
+                                            <span></span>
+                                        </div>
+                                        19
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="clear">&nbsp;</div>
+                            <div class="clear">&nbsp;</div>
+                        </div>
+
+                        <div class="productPage-displayedItem">
+                            <div class="productPage-displayedItem-images">
+                                <div class="productPage-displayedItem-imagesSlider">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="productPage-displayedItem-imagesSlider-item  swiper-zoom-container">
+                                                    <img src="../assets/img/goods-one.jpg"
+                                                         data-src="https://static.onlinetrade.ru/img/items/m/2223336_4.png"
+                                                         alt="Смартфон POCO С40 4/64GB Черный Изображение 4 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы"
+                                                         title="Смартфон POCO С40 4/64GB Черный Изображение 4">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="productPage-displayedItem-imagesSlider-item  swiper-zoom-container">
+                                                    <img src="../assets/img/goods-one.jpg"
+                                                         data-src="https://static.onlinetrade.ru/img/items/m/2223336_4.png"
+                                                         alt="Смартфон POCO С40 4/64GB Черный Изображение 4 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы"
+                                                         title="Смартфон POCO С40 4/64GB Черный Изображение 4">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="productPage-displayedItem-imagesSlider-item  swiper-zoom-container">
+                                                    <img src="../assets/img/goods-one.jpg"
+                                                         data-src="https://static.onlinetrade.ru/img/items/m/2223336_4.png"
+                                                         alt="Смартфон POCO С40 4/64GB Черный Изображение 4 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы"
+                                                         title="Смартфон POCO С40 4/64GB Черный Изображение 4">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="productPage-displayedItem-imagesSlider-item  swiper-zoom-container">
+                                                    <img src="../assets/img/goods-one.jpg"
+                                                         data-src="https://static.onlinetrade.ru/img/items/m/2223336_4.png"
+                                                         alt="Смартфон POCO С40 4/64GB Черный Изображение 4 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы"
+                                                         title="Смартфон POCO С40 4/64GB Черный Изображение 4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+
+                            <div class="k_centered">
+                                <div class="productPage-displayedItem-columnLeft">
+                                    <div class="productPage-displayedItem-descriptionTop">
+                                        <div class="productPage-displayedItem-setTypeCover">
+                                            <span class="productPage-displayedItem-setType-label medium">
+                                                Объем, цвет:
+                                            </span>
+                                            <div class="productPage-displayedItem-setType-values">
+                                                <label>
+                                                    <select class="cs-customSelector" style="width: 380px;">
+                                                        <option>64 Гб, серый</option>
+                                                        <option>64 Гб, серый</option>
+                                                        <option>64 Гб, серый</option>
+                                                        <option>64 Гб, серый</option>
+                                                        <option>64 Гб, серый</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                            <div class="productPage-displayedItem-columnRight">
+                                <div class="productPage-offer">
+                                    <span title="-13%" class="mark mark-discount">-13%</span>
+
+                                    <div class="productPage-priceCover">
+                                        <p class="gray">Старая цена:</p>
+
+                                        <s class="catalog-displayedItem-oldPrice">
+                                            <span class="black">14 990 ₽</span>
+                                        </s>
+
+                                        <p class="gray">Новая цена (Москва): </p>
+
+                                        <div class="catalog-displayedItem-actualPrice">
+
+                                            <span>
+                                                <span>12 990</span> ₽
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="gray compass-ic compass-rasrochka">
+
+                                        Расрочка: : <span class="black nowrap">541.2TJS/24мес</span>
+                                    </div>
+
+                                    <div class="catalog-displayedItem-buttonCover">
+                                        <div class="catalog-displayedItem-numsToBuy">
+                                            <span class="bubbleOpenLink">
+                                                <a href="#" class="numsToBuy-minus js-numsToBuy-minus countBtn"></a>
+                                                <input type="text" class="input-text  js-itemIDCount" value="1"
+                                                       maxlength="3">
+                                                <a href="#" title="Больше"
+                                                   class="numsToBuy-plus js-numsToBuy-plus countBtn"></a>
+                                            </span>
+                                        </div>
+
+                                        <div class="catalog-displayedItem-button">
+                                            <a href="#" class="button button-orange">
+                                                Купить
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="productPage-offerInfo">
+                                        <span class="catalog-displayedItem-availabilityCount">
+                                            в наличии
+
+                                            <label>&gt; 10 шт.</label>
+                                        </span>
+
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <div class="productPage-offer-manage">
+                                        <a href="#" class="compass-ic compass-ic-compare">
+                                            Сравнить
+                                        </a>
+                                        <a href="#" class="compass-ic compass-ic-bookmark">
+                                            В закладки
+                                        </a>
+                                        <a href="#" class="compass-ic compass-ic-share">
+                                            Поделиться
+                                        </a>
+                                    </div>
+
+                                    <div class="productPage-fastLinks">
+                                        <a href="" class="gray js-tabs-externalLink">Наличие</a>
+                                        <span class="separateDot">&nbsp;</span>
+                                        <a href="" class="gray js-tabs-externalLink active">Доставка</a>
+                                    </div>
+                                </div>
+                                <div class="clear">&nbsp;</div>
+                            </div>
+
+                            <div class="k_centered">
+                                <div class="productPage-displayedItem-columnLeft">
+                                    <div class="desc-columnCell">
+                                        <div class="desc-technicalBrand-item">
+                                            <div class="desc-technicalBrand-line">
+                                                <span class="gray">Код производителя:</span>
+                                                <span class="nowrap">063-4303</span>
+                                            </div>
+
+                                            <div class="desc-technicalBrand-line">
+                                                <span class="gray">Гарантия:  </span>
+                                                <span class="nowrap">12 мес. </span>
+                                            </div>
+                                        </div>
+                                        <div class="productPage-shortProperties">
+                                            <h5>Характеристики</h5>
+
+                                            <ul class="featureList columned">
+                                                <li class="featureList-item">
+                                                    <span class="gray">Мощность:</span
+                                                    >1800 Вт
+                                                </li>
+                                                <li class="featureList-item">
+                                                    <span class="gray">Максимальный расход воды:</span
+                                                    >360 л/ч
+                                                </li>
+                                                <li class="featureList-item">
+                                                    <span class="gray">Максимальная температура воды:</span
+                                                    >40 °C
+                                                </li>
+                                            </ul>
+
+                                            <a href="" class="js-tabs-externalLink active">Полное описание и
+                                                характеристики</a>
+                                        </div>
+                                        <div class="desc-techBrand-info">
+                                            <div class="desc-techBrand-brandLogo">
+                                                <a href="#">
+                                                    <img src="../assets/img/apple_1.png" alt="Apple">
+                                                </a>
+                                            </div>
+
+                                            <div class="desc-techBrand-brandLink">
+                                                <span class="gray">Все товары</span>
+                                                <a href="#">Apple</a>
+                                            </div>
+
+                                            <div class="clear">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="k_centered">
+                        <div class="catalogList-spoiledItemGroup spoiledItemGroup-iconed">
+                            <div class="catalogList-spoiledItem">
+                                <div class="catalogList-spoiledItem-name">
+                                    <a class="blue js-tabsManage" href="#tabs_availability">Доставка и самовывоз</a>
+                                </div>
+                                <div class="catalogList-spoiledItem-content">
+                                    <div class="multicart-orderoption-item">
+                                        <h2 class="asH1">Доставка по Москве</h2>
+
+                                        <div class="descriptionLine"></div>
+
+                                        <div class="multicart-orderoption-itemLines">
+                                            <div class="">
+                                                <div class="multicart-orderoption-itemLine">
+                                                    <div class="">
+                                                        <span class="semibold">Срочная доставка по Москве в пределах МКАД (в течение 2-3 ч.)</span>
+
+                                                        <div>
+                                                            <span class="gray">Дата доставки:</span>сегодня
+                                                        </div>
+
+                                                        <div>
+                                                            <span class="gray">Стоимость:</span><b>590 рублей</b>
+                                                        </div>
+
+                                                        <div>
+                                                            <a class="button button__orange" href="#">Купить</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="catalogList-spoiledItem">
+                                <div class="catalogList-spoiledItem-name">
+                                    <a class="blue js-tabsManage" href="#tabs_description">Описание</a>
+                                </div>
+                                <div class="catalogList-spoiledItem-content" id="tabs_description">
+                                    <h2>Характеристики</h2>
+
+                                    <ul class="featureList">
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                        <li class="featureList-item"><span class="gray">Модель:</span>POCO С40</li>
+                                    </ul>
+
+                                    <div class="clear"></div>
+
+                                    <h2>Комплектация</h2>
+
+                                    <p>Комплектация товара
+                                        <b>Смартфон POCO С40 3/32GB Бирюзовый</b>
+                                        зависит от конкретной поставки и может меняться поставщиком без предварительного
+                                        уведомления!
+                                    </p>
+
+                                    <div class="list-checkPassedHere">
+                                        <ul>
+                                            <li>Смартфон POCO C40</li>
+                                            <li>Смартфон POCO C40</li>
+                                            <li>Смартфон POCO C40</li>
+                                            <li>Смартфон POCO C40</li>
+                                            <li>Смартфон POCO C40</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="clear"></div>
+
+                                    <p class="gray"
+                                    >Технические характеристики товара могут отличаться
+                                        от указанных на сайте, уточняйте технические характеристики
+                                        товара на момент покупки и оплаты. Вся информация на сайте о
+                                        товарах носит справочный характер и не является публичной офертой в
+                                        соответствии с пунктом 2 статьи 437 ГК РФ. Убедительно просим Вас при
+                                        покупке проверять наличие желаемых функций и характеристик.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="indexGoods">
+                    <div class="k_centered">
+                        <div class="indexGoods__headers">
+                            <a href="#" class="indexHeaders__link">Все товары</a>
+                            <h2 class="asH1">Вы смотрели</h2>
+                        </div>
+
+                        <div class="indexGoods__items">
+                            <div class="goods__items oneline minilisting ">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide indexGoods__item" itemscope=""
+                                             itemtype="http://schema.org/Product" id="item_content_container_2760332">
+                                            <div class="indexGoods__item__manageTop"><span
+                                                    class="indexGoods__item__fastView js__ajaxExchange ic__set ic__set__viewed"
+                                                    data-handler="popup" data-handlermode="preview"
+                                                    data-itemid="3902945"
+                                                    title="Быстрый просмотр «Смартфон Apple iPhone 15 128Gb A3092 Черный»">&nbsp;</span>
+                                                <a href="#?add_item_id=2760332"
+                                                   title="Добавить в закладки «Смартфон Apple iPhone 15 128Gb A3092 Черный»"
+                                                   class="ic__hasSet ic__hasSet__bookmark js__ajaxExchange"
+                                                   data-handler="bookmarks" data-handlermode="add" data-itemid="2760332"
+                                                   data-titletrue="Удалить из закладок" data-titlefalse="В закладки"
+                                                   data-captiontrue=" " data-captionfalse=" "> </a></div>
+                                            <div class="indexGoods__item__flexCover"><a
+                                                    href="#apple/smartfon_apple_iphone_15_128gb_a3092_chernyy_mtld3za_a-3902945.html"
+                                                    class="indexGoods__item__image"
+                                                    title="Подробнее о «Смартфон Apple iPhone 15 128Gb A3092 Черный»"><img
+                                                    src="https://static.onlinetrade.ru/img/items/s/smartfon_apple_iphone_15_128gb_a3092_chernyy_2760332_1.JPG"
+                                                    alt="Смартфон Apple iPhone 15 128Gb A3092 Черный"></a>
+                                                <div class="indexGoods__item__descriptionCover">
+                                                    <div class="indexGoods__item__stars">
+                                                        <div class="starsSVG" title="Нет оценок"></div>
+                                                        0
+                                                    </div>
+                                                    <a href="#apple/smartfon_apple_iphone_15_128gb_a3092_chernyy_mtld3za_a-3902945.html"
+                                                       class="indexGoods__item__name  indexGoods__item__name__3lines  "
+                                                       title="Подробнее о «Смартфон Apple iPhone 15 128Gb A3092 Черный»">Смартфон
+                                                        Apple iPhone 15 128Gb A3092 Черный</a></div>
+                                            </div>
+                                            <div class="indexGoods__item__dataCover">
+                                                <div class="indexGoods__item__price" itemprop="offers" itemscope=""
+                                                     itemtype="http://schema.org/Offer"><s class="priceOld"
+                                                                                           title="Старая цена"><span
+                                                        class="gray">124 990 ₽</span></s><span
+                                                        class="price">123 990 ₽</span></div>
+                                                <div class="indexGoods__item__bonuses"><span
+                                                        class="ic__hasSet ic__hasSet__onbonus" title="ON-бонус"><span
+                                                        class="detaillisting__display gray">ON-бонусов:</span> 1 500 ₽</span>&nbsp;
+                                                </div>
+                                                <div class="indexGoods__item__manage"><a href="/basket.html?add=2760332"
+                                                                                         title="Купить Смартфон Apple iPhone 15 128Gb A3092 Черный"
+                                                                                         rel="nofollow"
+                                                                                         class="button button__orange js__ajaxExchange"
+                                                                                         data-handler="buy"
+                                                                                         data-itemid="2760332"
+                                                                                         data-itemcount="1">Купить</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="clear" style="clear: both;"></div>
+        </div>
+
+
+        <div id="footer">
+            <div class="footer__infoline">
+                <div class="k_centered">
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__linksline">
+                <div class="k_centered">
+                    <div class="footer__linksline__logo">
+                        <a href="index.html" class="footer__logo">
+                            <img src="../assets/img/logo-dark.png" width="150" class="footer__logo__image"></a>
+                    </div>
+                    <div class="footer__linksline__contacts">
+                        <div class="footer__linksline__smo">
+                            <a href="#" title="Telegram"
+                               class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                            <a href="#" title="Telegram"
+                               class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                            <a href="#" title="Telegram"
+                               class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__linksline__links">
+                        <ul class="footer__links__column">
+                            <li><h5>Compass</h5></li>
+                            <li><a href="/info/about.html" title="О компании">О компании</a></li>
+                            <li><a href="/info/vacancy.html" title="Вакансии">Вакансии</a></li>
+                            <li><a href="http://ontrade.ru/" title="Дилерам">Дилерам</a></li>
+                            <li><a href="/info/press_releases.html" title="Для прессы">Для прессы</a></li>
+                            <li><a href="/news/" title="Новости">Новости</a></li>
+                        </ul>
+
+                        <ul class="footer__links__column">
+                            <li><h5>Интернет-магазин</h5></li>
+                            <li><a href="/catalogue/" title="Каталог товаров">Каталог товаров</a></li>
+                            <li><a href="#" title="Пункты выдачи">Пункты выдачи</a></li>
+                            <li><a href="/club/" title="Клуб ON-бонус">Клуб ON-бонус</a></li>
+                            <li><a href="/info/garantii.html" title="Гарантийное обслуживание">Гарантийное
+                                обслуживание</a></li>
+                            <li><a href="/info/payment.html" title="Оплата заказа">Оплата заказа</a></li>
+                        </ul>
+
+                        <ul class="footer__links__column">
+                            <li><h5>Услуги</h5></li>
+                            <li><a href="/info/delivery.html" title="Доставка">Доставка</a></li>
+                            <li><a href="/info/selftake.html" title="Самовывоз">Самовывоз</a></li>
+                            <li><a href="/info/service_centre.html" title="Сервисный центр">Сервис-центр</a></li>
+                        </ul>
+
+                        <ul class="footer__links__column">
+                            <li><h5>Услуги</h5></li>
+                            <a href="/info/privacy_policy.html" class="gray"
+                               title="Политика конфиденциальности Compass">Политика конфиденциальности</a>
+                            <li style="margin-top: 8px;"><a href="https://www.onlinetrade.ru/" class="gray"
+                                                            rel="nofollow" title="Полная версия сайта">Полная версия</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__countersline">
+                        <div class="k_centered">
+                            <div class="footer__countersline__middle">
+                                <span class="footer__copyright">©
+                                    <a href="https://m.onlinetrade.ru" title="На главную страницу">Onlinetrade.ru</a>
+                                    <span class="nowrap">1998–2023</span>
+                                </span>
+
+                                <img src="../assets/img/banks.png" height="27" alt="принимаем к оплате">
+                            </div>
+
+                            <div class="footer__countersline__market">
+                                <div class="siteAgeRate">16+</div>
+                            </div>
+
+                            <div class="footer__countersline__smo">
+                                Цены и условия действительны до:
+
+                                <span class="nowrap">02.08.2023 11:35</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="#" class="totop-btn">  </a>
+
+    </div>
+
+    <div class="error-window d-flex align-items-center" style="display: none">
+        <img src="../assets/img/icons-info.svg" alt="">
+        <span></span>
+    </div>
+
+</div><!-- #main (end) -->
+
+
+<script src="../assets/plugins/jquery/jq-1.11.1.js"></script>
+<script src="../assets/plugins/swiper.js/swiper-bundle.min.js"></script>
+
+<script src="js/script.js/script.js"></script>
+
+</body>
+</html>

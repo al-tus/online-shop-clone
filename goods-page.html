@@ -1,0 +1,2013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/plugins/swiper.js/swiper-style.css"/>
+    <link rel="stylesheet" href="assets/plugins/jquery-ui-1.13.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+<div id="wrap">
+
+    
+     
+
+    <div id="main-aria">
+        <!-- navbar -->
+
+        <div class="header__cover ">
+                <div class="k_centered">
+                    <div class="header  ">
+                        <div class="header__logo">
+                            <a href="/" title="На главную страницу" class="logo__link  notIndexPage  "
+                                style="top: -2px;">
+                                <img src="assets/img/compass-logo.png" width="186px" alt="compass" id="logo"
+                                    title="Compass — интернет-магазин бытовой техники и электроники"
+                                    class="logo" />
+                            </a>
+                        </div>
+                        <div class="header__catalogActionsButtons">
+                            <a href="catalog.html" title="Каталог товаров"
+                               class="header__button header__buttonCatalog  js__catalogLine__mainLink js__menuUpdated">
+                                <div class="header__menuLink__icon"></div>
+                                <span>Каталог</span>
+                            </a>
+                            <a href="#" title="Скидки" class="header__button header__buttonActions">
+                                <div class="ic__hasSet ic__hasSet__actionWhite"></div>
+                                <span>Скидки</span>
+                            </a>
+                        </div>
+                        <div class="header__cityAndSearchCover">
+                            <div class="header__cityAndSearch">
+                                <div class="header__search">
+                                    <div class="header__searchCover js__header__searchCover">
+                                        <form name="head_search" action="#" autocomplete="off">
+                                            <input type="submit" value="" class="header__search__inputGogogo"
+                                                title="Искать" tabindex="2">
+                                            <div class="header__search__inputTextCover">
+                                                <input type="text" placeholder="Самокат?" name="query" value=""
+                                                    class="header__search__inputText js__header__search__inputText"
+                                                    autocomplete="off" tabindex="1">
+                                            </div>
+                                        </form>
+                                        <div class="header__searchFastResult js__fastSearchResultsCover"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__userAndBasket">
+                            <div class="huab__cell huab__cell__member">
+                                <a href="#" class="huab__cell__link js__ajaxExchange" onclick="modalOpeLogin(event)"
+                                    data-handler="popup" data-handlermode="login" title="Вход в Личный кабинет">
+                                    <div class="huab__cell__icon">
+                                        <span class="ic__set ic__set__member"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="huab__cell huab__cell__onbonus">
+                                <a href="#" class="huab__cell__link"
+                                    title="300 ON-Бонусов за регистрацию с подтверждением мобильного телефона">
+                                    <div class="huab__cell__icon">
+                                        <span class="ic__set ic__set__onbonusWhite"></span>
+                                    </div>
+                                    <div class="huab__cell__text">
+                                        <span class="black">300</span>
+                                        <span>при регистрации</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="huab__cell huab__cell__bookmark">
+                                <a href="#" class="huab__cell__link" title="Закладки (0)">
+                                    <div class="huab__cell__icon">
+                                        <span class="ic__set ic__set__bookmark"></span>
+                                    </div>
+                                    <div class="huab__cell__text js__bookmarksCount">0</div>
+                                </a>
+                            </div>
+                            <div class="huab__cell huab__cell__multicart js__header__basketCover " title="Оформить">
+                                <a href="./basket.html/basket.html" class="huab__cell__link" title="Ваша корзина пуста">
+                                    <div class="huab__cell__icon">
+                                        <span class="ic__set ic__set__multicartWhite"></span>
+                                    </div>
+                                    <div class="huab__cell__text">
+                                        <span class="itemCount">0</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       <div class="catalogLine">           
+              <div class="k_centered">
+              <div class="catalogLine__cover js__catalogLine__cover">
+                     <div class="catalogLine__panelCover">
+                     <div class="catalogLine__panel js__catalogLine__panel">
+                            <div class="catalogLine__panelEars js__catalogLine__panelEars"></div>
+                            <div class="catalogLine__panel__left">
+                                   <ul class="mainCategoryMenu js__mainCategoryMenu">
+                                   <li class="mCM__item">
+                                          <a href="#" class="mCM__item__link">
+                                          <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+                                                 <path d="m7.8086 50.348h40.383c4.8749 0 7.3594-2.4375 7.3594-7.2657v-24.539c0-4.8281-2.4845-7.2422-7.3594-7.2422h-5.4845c-1.828 0-2.3905-0.375-3.4452-1.5469l-1.8984-2.1094c-1.1484-1.289-2.3437-1.9922-4.7813-1.9922h-9.3281c-2.4141 0-3.6094 0.7032-4.7812 1.9922l-1.8985 2.1094c-1.0312 1.1484-1.6171 1.5469-3.4453 1.5469h-5.3203c-4.875 0-7.3594 2.4141-7.3594 7.2422v24.539c0 4.8282 2.4844 7.2657 7.3594 7.2657zm0.0703-3.7735c-2.3203 0-3.6562-1.2422-3.6562-3.6797v-24.141c0-2.4375 1.3359-3.6797 3.6562-3.6797h6.1875c2.1094 0 3.2344-0.3984 4.4063-1.7109l1.8515-2.0625c1.336-1.5 2.0156-1.875 4.1016-1.875h6.9844c2.0859 0 2.7656 0.375 4.1015 1.875l1.8516 2.0625c1.1719 1.3125 2.2969 1.7109 4.4063 1.7109h6.3517c2.3203 0 3.6562 1.2422 3.6562 3.6797v24.141c0 2.4375-1.3359 3.6797-3.6562 3.6797zm20.109-3.7265c7.1015 0 12.797-5.6954 12.797-12.82s-5.6719-12.82-12.797-12.82c-7.0781 0-12.773 5.6952-12.773 12.82s5.6953 12.82 12.773 12.82zm16.852-18.539c1.5936 0 2.906-1.2891 2.906-2.8828 0-1.6172-1.3124-2.9063-2.906-2.9063-1.594 0-2.9064 1.2891-2.9064 2.9063 0 1.5937 1.3124 2.8828 2.9064 2.8828zm-16.852 14.977c-5.0859 0-9.2344-4.125-9.2344-9.2579 0-5.1328 4.125-9.2578 9.2344-9.2578s9.2578 4.125 9.2578 9.2578c0 5.1329-4.1484 9.2579-9.2578 9.2579z"/>
+                                          </svg>
+
+                                          <span>Электроника</span>
+                                          </a>
+
+                                          <div class="mCM__item__panel js__mCM__item__panel"  >
+                                          <div class="height-takeer">
+                                                 <div class="mCM__item__panel__catline">
+                                                 <div class="mCM__item__panel__categoriesCover">
+                                                        <div class="mCM__item__panel__categories">
+                                                               <div class="mCM__item__panel__category">
+                                                               <span class="mCM__item__panel__categoryTitle">
+                                                               <a href="#"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Телефоны и гаджеты»">Телефоны
+                                                                      и гаджеты</a>
+                                                               </span>
+
+                                                               <ul class="mCM__item__panel__categoryList">
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Смартфоны»">Смартфоны</a>
+                                                                      </li>
+                                                               </ul>
+
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Планшеты и электронные книги»">Планшеты
+                                                                      и электронные книги</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList">
+                                                                      <li><a href="/catalogue/planshety-c136/"
+                                                                             title="Перейти в категорию Планшеты">Планшеты</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/elektronnye_knigi-c6/"
+                                                                             title="Перейти в категорию «Электронные книги»">Электронные
+                                                                      книги</a></li>
+                                                                      <li><a href="/catalogue/detskie_planshety-c1282/"
+                                                                             title="Перейти в категорию «Детские планшеты»">Детские
+                                                                      планшеты</a></li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_planshetov-c1318/"
+                                                                             title="Перейти в категорию «Аксессуары для планшетов»">Аксессуары
+                                                                      для планшетов</a></li>
+                                                               </ul>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/foto_video-c1/" class="black"
+                                                                      title="Перейти в категорию «Фото-видео»">Фото-видео</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/fotoapparaty-c438/"
+                                                                             title="Перейти в категорию «Фотоаппараты»">Фотоаппараты</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/videokamery-c3871/"
+                                                                             title="Перейти в категорию «Видеокамеры»">Видеокамеры</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Аксессуары для фото-видеo»">Аксессуары
+                                                                      для фото-видеo</a></li>
+                                                                      <li><a href="/catalogue/opticheskie_pribory-c380/"
+                                                                             title="Перейти в категорию «Телескопы, бинокли, микроскопы»">Телескопы,
+                                                                      бинокли, микроскопы</a></li>
+                                                                      <li><a href="/catalogue/shtativy_i_stabilizatory-c436/"
+                                                                             title="Перейти в категорию «Штативы и стабилизаторы»">Штативы
+                                                                      и стабилизаторы</a></li>
+                                                                      <li><a href="/catalogue/vspyshki_i_osvetiteli-c448/"
+                                                                             title="Перейти в категорию «Вспышки и осветители»">Вспышки
+                                                                      и осветители</a></li>
+                                                               </ul>
+                                                               <a href="/catalogue/foto_video-c1/"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle "><a
+                                                                      href="/catalogue/tv_i_video-c67/" class="black"
+                                                                      title="Перейти в категорию «ТВ и Видео»">ТВ и
+                                                                      Видео</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/televizory-c181/"
+                                                                             title="Перейти в категорию «Телевизоры»">Телевизоры</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/proektory-c57/"
+                                                                             title="Перейти в категорию «Проекторы»">Проекторы</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_tv_i_video-c387/"
+                                                                             title="Перейти в категорию «Аксессуары для ТВ и Видео»">Аксессуары
+                                                                      для ТВ и Видео</a></li>
+                                                                      <li><a href="/catalogue/tv_pristavki_i_mediapleery-c8/"
+                                                                             title="Перейти в категорию «ТВ-приставки и медиаплееры»">ТВ-приставки
+                                                                      и медиаплееры</a></li>
+                                                                      <li><a href="/catalogue/sputnikovoe_i_kabelnoe_tv-c2067/"
+                                                                             title="Перейти в категорию «Спутниковое и кабельное ТВ»">Спутниковое
+                                                                      и кабельное ТВ</a></li>
+                                                                      <li><a href="/catalogue/tsifrovye_resivery_dvb_t_t2_c-c1298/"
+                                                                             title="Перейти в категорию «Цифровые ресиверы DVB-T/T2/C»">Цифровые
+                                                                      ресиверы DVB-T/T2/C</a></li>
+                                                               </ul>
+                                                               <a href="/catalogue/tv_i_video-c67/"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Аудиотехника»">Аудиотехника</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/naushniki-c92/"
+                                                                             title="Перейти в категорию «Наушники»">Наушники</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/portativnaya_akustika-c311/"
+                                                                             title="Перейти в категорию «Портативная акустика»">Портативная
+                                                                      акустика</a></li>
+                                                                      <li><a href="/catalogue/umnye_kolonki-c5645/"
+                                                                             title="Перейти в категорию «Умные колонки»">Умные
+                                                                      колонки</a></li>
+                                                                      <li><a href="/catalogue/kolonki_hi_fi_i_sabvufery-c1225/"
+                                                                             title="Перейти в категорию «Колонки Hi-Fi и сабвуферы»">Колонки
+                                                                      Hi-Fi и сабвуферы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_diski_i_plastinki-c7652/"
+                                                                             title="Перейти в категорию «Музыкальные диски и пластинки»">Музыкальные
+                                                                      диски и пластинки</a></li>
+                                                                      <li><a href="/catalogue/setevye_audiopleery-c552/"
+                                                                             title="Перейти в категорию «Сетевые аудиоплееры»">Сетевые
+                                                                      аудиоплееры</a></li>
+                                                                      <li><a href="/catalogue/av_resivery-c365/"
+                                                                             title="Перейти в категорию «AV ресиверы»">AV
+                                                                      ресиверы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_tsentry_i_minisistemy-c96/"
+                                                                             title="Перейти в категорию «Музыкальные центры»">Музыкальные
+                                                                      центры</a></li>
+                                                                      <li><a href="/catalogue/proigryvateli_vinilovykh_diskov_i_aksessuary-c4010/"
+                                                                             title="Перейти в категорию «Виниловые проигрыватели»">Виниловые
+                                                                      проигрыватели</a></li>
+                                                                      <li><a href="/catalogue/md_i_cd_proigryvateli-c866/"
+                                                                             title="Перейти в категорию «MD и CD-проигрыватели»">MD
+                                                                      и CD-проигрыватели</a></li>
+                                                                      <li><a href="/catalogue/komplekty_akustiki-c292/"
+                                                                             title="Перейти в категорию «Комплекты акустики»">Комплекты
+                                                                      акустики</a></li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_audiotekhniki-c1908/"
+                                                                             title="Перейти в категорию «Аксессуары для аудиотехники»">Аксессуары
+                                                                      для аудиотехники</a></li>
+                                                                      <li><a href="/catalogue/karaoke_sistemy-c1424/"
+                                                                             title="Перейти в категорию «Караоке системы»">Караоке
+                                                                      системы</a></li>
+                                                                      <li><a href="/catalogue/magnitoly-c97/"
+                                                                             title="Перейти в категорию «Магнитолы»">Магнитолы</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/megafony-c529/"
+                                                                             title="Перейти в категорию «Мегафоны»">Мегафоны</a>
+                                                                      </li>
+                                                               </ul>
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/zaryadnye_ustroystva_i_elementy_pitaniya-c454/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Зарядки и элементы питания»">Зарядки
+                                                                      и элементы питания</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/zaryadnye_ustroystva_aa_aaa-c191/"
+                                                                             title="Перейти в категорию «Зарядные устройства AA/AAA»">Зарядные
+                                                                      устройства AA/AAA</a></li>
+                                                                      <li><a href="/catalogue/batareyki-c59/"
+                                                                             title="Перейти в категорию «Батарейки»">Батарейки</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/akkumulyatory_aa_aaa-c455/"
+                                                                             title="Перейти в категорию «Аккумуляторы»">Аккумуляторы</a>
+                                                                      </li>
+                                                               </ul>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/elektronnye_sigarety_tovary_dlya_kureniya-c7804/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Электронные сигареты, товары для курения»">Электронные
+                                                                      сигареты, товары для курения</a>
+                                                               </span>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/igry_soft_i_razvlecheniya-c798/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Игры, софт и развлечения»">Игры,
+                                                                      софт и развлечения</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/playstation-c5451/"
+                                                                             title="Перейти в категорию «PlayStation»">PlayStation</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/xbox-c5453/"
+                                                                             title="Перейти в категорию «Xbox»">Xbox</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/nintendo-c5455/"
+                                                                             title="Перейти в категорию «Nintendo»">Nintendo</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/igrovaya_atributika-c4856/"
+                                                                             title="Перейти в категорию «Игровая атрибутика»">Игровая
+                                                                      атрибутика</a></li>
+                                                                      <li><a href="/catalogue/geympady_ios_i_android-c6982/"
+                                                                             title="Перейти в категорию «Геймпады iOS и Android»">Геймпады
+                                                                      iOS и Android</a></li>
+                                                                      <li><a href="/catalogue/retro_konsoli-c64/"
+                                                                             title="Перейти в категорию «Ретро консоли»">Ретро
+                                                                      консоли</a></li>
+                                                                      <li><a href="/catalogue/figurki_funko_pop-c8314/"
+                                                                             title="Перейти в категорию «Фигурки Funko POP»">Фигурки
+                                                                      Funko POP</a></li>
+                                                               </ul>
+                                                               </div>
+                                                        </div>
+                                                 </div>
+
+                                                 <div class="mCM__item__panel__action">
+                                                        <div class="panelAction">
+                                                               <a href="#skidki_do_50_na_naushniki_urbanears-a14644.html?erid=LdtCKH3xD&amp;utm_source=internal&amp;utm_medium=banner&amp;utm_campaign=b25517"
+                                                               title="Скидки до 50% на наушники URBANEARS"
+                                                               class="panelAction__link">
+                                                               <div class="partWidth_bnr b_f">
+                                                                      <img src="https://static.onlinetrade.ru/img/banners/8_5293_1684762020.jpg"
+                                                                      alt="Скидки до 50% на наушники URBANEARS"
+                                                                      class="panelAction__image" loading="lazy">
+                                                               </div>
+                                                               </a>
+                                                        </div>
+                                                 </div>
+                                                 </div>
+                                                 <div class="mCM__item__panel__brandline">
+                                                 <h5>Популярные бренды</h5>
+
+                                                 <div class="mCM__item__panel__brands">
+                                                        <a href="/brands/rombica/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Rombica">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/rombica_logo_1.png"
+                                                               alt="Rombica" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/samsung/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Samsung">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                               alt="Samsung" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/df/" class="panelBrands__item"
+                                                        title="Посмотреть все товары DF">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/dflogo.PNG"
+                                                               alt="DF" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/rexant/" class="panelBrands__item"
+                                                        title="Посмотреть все товары REXANT">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/rexant.jpg"
+                                                               alt="REXANT" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/xiaomi/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Xiaomi">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/xiaomi_1671785385.png"
+                                                               alt="Xiaomi" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/sandisk/" class="panelBrands__item"
+                                                        title="Посмотреть все товары SanDisk">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/sandisk.png"
+                                                               alt="SanDisk" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/borasco/" class="panelBrands__item"
+                                                        title="Посмотреть все товары BoraSCO">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/borasco_1633697999.png"
+                                                               alt="BoraSCO" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/smartbuy/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Smartbuy">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/logosmart.png"
+                                                               alt="Smartbuy" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/warner_music/" class="panelBrands__item"
+                                                        title="Посмотреть все товары WARNER MUSIC">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/warner_music_1633697857.png"
+                                                               alt="WARNER MUSIC" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+
+                                                 </div>
+                                                 </div>
+                                          </div>
+
+                                          </div>
+                                   </li>
+
+                                   <li class="mCM__item">
+                                          <a href="#" class="mCM__item__link">
+                                          <svg xmlns="http://www.w3.org/2000/svg" id="_Слой_2" data-name="Слой 2" viewBox="0 0 240.11 212.32">
+                                                 <g><path d="m21.89,13.12l98.87.16s12.26-.26,12.04,12.43-12.04,13.45-12.04,13.45H27.06l-.3,119.87h94s11.9.04,12.05,12.23,0,31.85,0,31.85c0,0-1.92,8.98-9.07,8.98h-47.66s-10.38-2.89-10.38-12.26,8.81-13.7,8.81-13.7l-52.62.04S0,180.43,0,163.4V34.72S1.83,14.15,21.89,13.12Z"/><path d="m181.02,0h38.21s20.17,3.49,20.6,23.66.25,168.98.25,168.98c0,0-7.22,19.53-22.8,19.66s-36.26-.32-36.26-.32c0,0-21.19-3.38-21.19-22.66V22.72S164.43,1.79,181.02,0Z"/></g>
+                                          </svg>
+
+                                          <span>Компьютеры и ноутбуки</span>
+                                          </a>
+
+                                          <div class="mCM__item__panel js__mCM__item__panel"  >
+                                          <div class="height-takeer">
+                                                 <div class="mCM__item__panel__catline">
+                                                 <div class="mCM__item__panel__categoriesCover">
+                                                        <div class="mCM__item__panel__categories">
+                                                               <div class="mCM__item__panel__category">
+                                                               <span class="mCM__item__panel__categoryTitle">
+                                                               <a href="#" class="black">Настольные компьютеры</a>
+                                                               </span>
+
+                                                               <ul class="mCM__item__panel__categoryList">
+                                                                      <li>
+                                                                      <a href="#">Геймерские компьютеры</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Офисные компьютеры</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Мультимедийные компьютеры</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Компьютеры для дизайна и графики</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Мини-ПК и неттопы</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Моноблоки</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Компьютеры для обучения и разработки</a>
+                                                                      </li>
+                                                               </ul>
+
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Планшеты и электронные книги»">Планшеты
+                                                                      и электронные книги</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList">
+                                                                      <li><a href="/catalogue/planshety-c136/"
+                                                                             title="Перейти в категорию Планшеты">Планшеты</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/elektronnye_knigi-c6/"
+                                                                             title="Перейти в категорию «Электронные книги»">Электронные
+                                                                      книги</a></li>
+                                                                      <li><a href="/catalogue/detskie_planshety-c1282/"
+                                                                             title="Перейти в категорию «Детские планшеты»">Детские
+                                                                      планшеты</a></li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_planshetov-c1318/"
+                                                                             title="Перейти в категорию «Аксессуары для планшетов»">Аксессуары
+                                                                      для планшетов</a></li>
+                                                               </ul>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/foto_video-c1/" class="black"
+                                                                      title="Перейти в категорию «Фото-видео»">Фото-видео</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/fotoapparaty-c438/"
+                                                                             title="Перейти в категорию «Фотоаппараты»">Фотоаппараты</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/videokamery-c3871/"
+                                                                             title="Перейти в категорию «Видеокамеры»">Видеокамеры</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Аксессуары для фото-видеo»">Аксессуары
+                                                                      для фото-видеo</a></li>
+                                                                      <li><a href="/catalogue/opticheskie_pribory-c380/"
+                                                                             title="Перейти в категорию «Телескопы, бинокли, микроскопы»">Телескопы,
+                                                                      бинокли, микроскопы</a></li>
+                                                                      <li><a href="/catalogue/shtativy_i_stabilizatory-c436/"
+                                                                             title="Перейти в категорию «Штативы и стабилизаторы»">Штативы
+                                                                      и стабилизаторы</a></li>
+                                                                      <li><a href="/catalogue/vspyshki_i_osvetiteli-c448/"
+                                                                             title="Перейти в категорию «Вспышки и осветители»">Вспышки
+                                                                      и осветители</a></li>
+                                                               </ul>
+                                                               <a href="/catalogue/foto_video-c1/"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle "><a
+                                                                      href="/catalogue/tv_i_video-c67/" class="black"
+                                                                      title="Перейти в категорию «ТВ и Видео»">ТВ и
+                                                                      Видео</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/televizory-c181/"
+                                                                             title="Перейти в категорию «Телевизоры»">Телевизоры</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/proektory-c57/"
+                                                                             title="Перейти в категорию «Проекторы»">Проекторы</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_tv_i_video-c387/"
+                                                                             title="Перейти в категорию «Аксессуары для ТВ и Видео»">Аксессуары
+                                                                      для ТВ и Видео</a></li>
+                                                                      <li><a href="/catalogue/tv_pristavki_i_mediapleery-c8/"
+                                                                             title="Перейти в категорию «ТВ-приставки и медиаплееры»">ТВ-приставки
+                                                                      и медиаплееры</a></li>
+                                                                      <li><a href="/catalogue/sputnikovoe_i_kabelnoe_tv-c2067/"
+                                                                             title="Перейти в категорию «Спутниковое и кабельное ТВ»">Спутниковое
+                                                                      и кабельное ТВ</a></li>
+                                                                      <li><a href="/catalogue/tsifrovye_resivery_dvb_t_t2_c-c1298/"
+                                                                             title="Перейти в категорию «Цифровые ресиверы DVB-T/T2/C»">Цифровые
+                                                                      ресиверы DVB-T/T2/C</a></li>
+                                                               </ul>
+                                                               <a href="/catalogue/tv_i_video-c67/"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Аудиотехника»">Аудиотехника</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/naushniki-c92/"
+                                                                             title="Перейти в категорию «Наушники»">Наушники</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/portativnaya_akustika-c311/"
+                                                                             title="Перейти в категорию «Портативная акустика»">Портативная
+                                                                      акустика</a></li>
+                                                                      <li><a href="/catalogue/umnye_kolonki-c5645/"
+                                                                             title="Перейти в категорию «Умные колонки»">Умные
+                                                                      колонки</a></li>
+                                                                      <li><a href="/catalogue/kolonki_hi_fi_i_sabvufery-c1225/"
+                                                                             title="Перейти в категорию «Колонки Hi-Fi и сабвуферы»">Колонки
+                                                                      Hi-Fi и сабвуферы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_diski_i_plastinki-c7652/"
+                                                                             title="Перейти в категорию «Музыкальные диски и пластинки»">Музыкальные
+                                                                      диски и пластинки</a></li>
+                                                                      <li><a href="/catalogue/setevye_audiopleery-c552/"
+                                                                             title="Перейти в категорию «Сетевые аудиоплееры»">Сетевые
+                                                                      аудиоплееры</a></li>
+                                                                      <li><a href="/catalogue/av_resivery-c365/"
+                                                                             title="Перейти в категорию «AV ресиверы»">AV
+                                                                      ресиверы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_tsentry_i_minisistemy-c96/"
+                                                                             title="Перейти в категорию «Музыкальные центры»">Музыкальные
+                                                                      центры</a></li>
+                                                                      <li><a href="/catalogue/proigryvateli_vinilovykh_diskov_i_aksessuary-c4010/"
+                                                                             title="Перейти в категорию «Виниловые проигрыватели»">Виниловые
+                                                                      проигрыватели</a></li>
+                                                                      <li><a href="/catalogue/md_i_cd_proigryvateli-c866/"
+                                                                             title="Перейти в категорию «MD и CD-проигрыватели»">MD
+                                                                      и CD-проигрыватели</a></li>
+                                                                      <li><a href="/catalogue/komplekty_akustiki-c292/"
+                                                                             title="Перейти в категорию «Комплекты акустики»">Комплекты
+                                                                      акустики</a></li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_audiotekhniki-c1908/"
+                                                                             title="Перейти в категорию «Аксессуары для аудиотехники»">Аксессуары
+                                                                      для аудиотехники</a></li>
+                                                                      <li><a href="/catalogue/karaoke_sistemy-c1424/"
+                                                                             title="Перейти в категорию «Караоке системы»">Караоке
+                                                                      системы</a></li>
+                                                                      <li><a href="/catalogue/magnitoly-c97/"
+                                                                             title="Перейти в категорию «Магнитолы»">Магнитолы</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/megafony-c529/"
+                                                                             title="Перейти в категорию «Мегафоны»">Мегафоны</a>
+                                                                      </li>
+                                                               </ul>
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/zaryadnye_ustroystva_i_elementy_pitaniya-c454/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Зарядки и элементы питания»">Зарядки
+                                                                      и элементы питания</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/zaryadnye_ustroystva_aa_aaa-c191/"
+                                                                             title="Перейти в категорию «Зарядные устройства AA/AAA»">Зарядные
+                                                                      устройства AA/AAA</a></li>
+                                                                      <li><a href="/catalogue/batareyki-c59/"
+                                                                             title="Перейти в категорию «Батарейки»">Батарейки</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/akkumulyatory_aa_aaa-c455/"
+                                                                             title="Перейти в категорию «Аккумуляторы»">Аккумуляторы</a>
+                                                                      </li>
+                                                               </ul>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/elektronnye_sigarety_tovary_dlya_kureniya-c7804/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Электронные сигареты, товары для курения»">Электронные
+                                                                      сигареты, товары для курения</a>
+                                                               </span>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/igry_soft_i_razvlecheniya-c798/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Игры, софт и развлечения»">Игры,
+                                                                      софт и развлечения</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/playstation-c5451/"
+                                                                             title="Перейти в категорию «PlayStation»">PlayStation</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/xbox-c5453/"
+                                                                             title="Перейти в категорию «Xbox»">Xbox</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/nintendo-c5455/"
+                                                                             title="Перейти в категорию «Nintendo»">Nintendo</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/igrovaya_atributika-c4856/"
+                                                                             title="Перейти в категорию «Игровая атрибутика»">Игровая
+                                                                      атрибутика</a></li>
+                                                                      <li><a href="/catalogue/geympady_ios_i_android-c6982/"
+                                                                             title="Перейти в категорию «Геймпады iOS и Android»">Геймпады
+                                                                      iOS и Android</a></li>
+                                                                      <li><a href="/catalogue/retro_konsoli-c64/"
+                                                                             title="Перейти в категорию «Ретро консоли»">Ретро
+                                                                      консоли</a></li>
+                                                                      <li><a href="/catalogue/figurki_funko_pop-c8314/"
+                                                                             title="Перейти в категорию «Фигурки Funko POP»">Фигурки
+                                                                      Funko POP</a></li>
+                                                               </ul>
+                                                               </div>
+                                                        </div>
+                                                 </div>
+
+                                                 <div class="mCM__item__panel__action">
+                                                        <div class="panelAction">
+                                                               <a href="#skidki_do_50_na_naushniki_urbanears-a14644.html?erid=LdtCKH3xD&amp;utm_source=internal&amp;utm_medium=banner&amp;utm_campaign=b25517"
+                                                               title="Скидки до 50% на наушники URBANEARS"
+                                                               class="panelAction__link">
+                                                               <div class="partWidth_bnr b_f">
+                                                                      <img src="https://static.onlinetrade.ru/img/banners/8_5293_1684762020.jpg"
+                                                                      alt="Скидки до 50% на наушники URBANEARS"
+                                                                      class="panelAction__image" loading="lazy">
+                                                               </div>
+                                                               </a>
+                                                        </div>
+                                                 </div>
+                                                 </div>
+                                                 <div class="mCM__item__panel__brandline">
+                                                 <h5>Популярные бренды</h5>
+
+                                                 <div class="mCM__item__panel__brands">
+                                                        <a href="/brands/rombica/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Rombica">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/rombica_logo_1.png"
+                                                               alt="Rombica" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/samsung/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Samsung">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                               alt="Samsung" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/df/" class="panelBrands__item"
+                                                        title="Посмотреть все товары DF">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/dflogo.PNG"
+                                                               alt="DF" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/rexant/" class="panelBrands__item"
+                                                        title="Посмотреть все товары REXANT">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/rexant.jpg"
+                                                               alt="REXANT" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/xiaomi/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Xiaomi">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/xiaomi_1671785385.png"
+                                                               alt="Xiaomi" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/sandisk/" class="panelBrands__item"
+                                                        title="Посмотреть все товары SanDisk">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/sandisk.png"
+                                                               alt="SanDisk" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/borasco/" class="panelBrands__item"
+                                                        title="Посмотреть все товары BoraSCO">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/borasco_1633697999.png"
+                                                               alt="BoraSCO" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/smartbuy/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Smartbuy">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/logosmart.png"
+                                                               alt="Smartbuy" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/warner_music/" class="panelBrands__item"
+                                                        title="Посмотреть все товары WARNER MUSIC">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/warner_music_1633697857.png"
+                                                               alt="WARNER MUSIC" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+
+                                                 </div>
+                                                 </div>
+                                          </div>
+
+                                          </div>
+                                   </li>
+
+                                   <li class="mCM__item">
+                                          <a href="#" class="mCM__item__link">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.32 156.05">
+                                                 <g id="_Слой_1-2" data-name="Слой 1"><path class="fill-bg-n" d="m6.5,21.19s1.28-14.68,14.43-14.68h88.34s14.55-.94,14.55,14.94v112.72s-5.43,15.38-17.23,15.38H20.84s-14.34-3.94-14.34-14.62V21.19Z"/><ellipse cx="41.82" cy="40.5" rx="11.96" ry="6.71"/><circle cx="73.56" cy="40.5" r="6.77"/><circle cx="92.12" cy="40.5" r="6.77"/><circle class="fill-bg-n" cx="65.16" cy="92.01" r="26.51"/><path class="fill-bg-n" d="m92.35,92.01l-15.7,6.94s-11.43-4.24-16.49-9.06-18.63,3.32-18.63,3.32"/></g>
+                                          </svg>
+                                          <span>Бытовая техника</span>
+                                          </a>
+
+                                          <div class="mCM__item__panel js__mCM__item__panel"  >
+                                          <div class="height-takeer">
+                                                 <div class="mCM__item__panel__catline">
+                                                 <div class="mCM__item__panel__categoriesCover">
+                                                        <div class="mCM__item__panel__categories">
+                                                               <div class="mCM__item__panel__category">
+                                                               <span class="mCM__item__panel__categoryTitle">
+                                                               <a href="#" class="black">Холодильники и морозильники</a>
+                                                               </span>
+
+                                                               <ul class="mCM__item__panel__categoryList">
+                                                                      <li>
+                                                                      <a href="#">Геймерские компьютеры</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Офисные компьютеры</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Мультимедийные компьютеры</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Компьютеры для дизайна и графики</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Мини-ПК и неттопы</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Моноблоки</a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href="#">Компьютеры для обучения и разработки</a>
+                                                                      </li>
+                                                               </ul>
+
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Плиты и духовые шкафы</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Планшеты и электронные книги»">Плиты и духовые шкафы</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList">
+                                                                      <li><a href="/catalogue/planshety-c136/"
+                                                                             title="Перейти в категорию Планшеты">Планшеты</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/elektronnye_knigi-c6/"
+                                                                             title="Перейти в категорию «Электронные книги»">Электронные
+                                                                      книги</a></li>
+                                                                      <li><a href="/catalogue/detskie_planshety-c1282/"
+                                                                             title="Перейти в категорию «Детские планшеты»">Детские
+                                                                      планшеты</a></li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_planshetov-c1318/"
+                                                                             title="Перейти в категорию «Аксессуары для планшетов»">Аксессуары
+                                                                      для планшетов</a></li>
+                                                               </ul>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#" class="black">Посудомоечные машины</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/fotoapparaty-c438/"
+                                                                             title="Перейти в категорию «Фотоаппараты»">Фотоаппараты</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/videokamery-c3871/"
+                                                                             title="Перейти в категорию «Видеокамеры»">Видеокамеры</a>
+                                                                      </li>
+                                                                      <li><a href="#"
+                                                                             title="Перейти в категорию «Аксессуары для фото-видеo»">Аксессуары
+                                                                      для фото-видеo</a></li>
+                                                                      <li><a href="/catalogue/opticheskie_pribory-c380/"
+                                                                             title="Перейти в категорию «Телескопы, бинокли, микроскопы»">Телескопы,
+                                                                      бинокли, микроскопы</a></li>
+                                                                      <li><a href="/catalogue/shtativy_i_stabilizatory-c436/"
+                                                                             title="Перейти в категорию «Штативы и стабилизаторы»">Штативы
+                                                                      и стабилизаторы</a></li>
+                                                                      <li><a href="/catalogue/vspyshki_i_osvetiteli-c448/"
+                                                                             title="Перейти в категорию «Вспышки и осветители»">Вспышки
+                                                                      и осветители</a></li>
+                                                               </ul>
+                                                               <a href="/catalogue/foto_video-c1/"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#" class="black">Стиральные и сушильные машины</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/televizory-c181/"
+                                                                             title="Перейти в категорию «Телевизоры»">Телевизоры</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/proektory-c57/"
+                                                                             title="Перейти в категорию «Проекторы»">Проекторы</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_tv_i_video-c387/"
+                                                                             title="Перейти в категорию «Аксессуары для ТВ и Видео»">Аксессуары
+                                                                      для ТВ и Видео</a></li>
+                                                                      <li><a href="/catalogue/tv_pristavki_i_mediapleery-c8/"
+                                                                             title="Перейти в категорию «ТВ-приставки и медиаплееры»">ТВ-приставки
+                                                                      и медиаплееры</a></li>
+                                                                      <li><a href="/catalogue/sputnikovoe_i_kabelnoe_tv-c2067/"
+                                                                             title="Перейти в категорию «Спутниковое и кабельное ТВ»">Спутниковое
+                                                                      и кабельное ТВ</a></li>
+                                                                      <li><a href="/catalogue/tsifrovye_resivery_dvb_t_t2_c-c1298/"
+                                                                             title="Перейти в категорию «Цифровые ресиверы DVB-T/T2/C»">Цифровые
+                                                                      ресиверы DVB-T/T2/C</a></li>
+                                                               </ul>
+                                                               <a href="/catalogue/tv_i_video-c67/"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="#" class="black">Микроволновые печи</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/naushniki-c92/"
+                                                                             title="Перейти в категорию «Наушники»">Наушники</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/portativnaya_akustika-c311/"
+                                                                             title="Перейти в категорию «Портативная акустика»">Портативная
+                                                                      акустика</a></li>
+                                                                      <li><a href="/catalogue/umnye_kolonki-c5645/"
+                                                                             title="Перейти в категорию «Умные колонки»">Умные
+                                                                      колонки</a></li>
+                                                                      <li><a href="/catalogue/kolonki_hi_fi_i_sabvufery-c1225/"
+                                                                             title="Перейти в категорию «Колонки Hi-Fi и сабвуферы»">Колонки
+                                                                      Hi-Fi и сабвуферы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_diski_i_plastinki-c7652/"
+                                                                             title="Перейти в категорию «Музыкальные диски и пластинки»">Музыкальные
+                                                                      диски и пластинки</a></li>
+                                                                      <li><a href="/catalogue/setevye_audiopleery-c552/"
+                                                                             title="Перейти в категорию «Сетевые аудиоплееры»">Сетевые
+                                                                      аудиоплееры</a></li>
+                                                                      <li><a href="/catalogue/av_resivery-c365/"
+                                                                             title="Перейти в категорию «AV ресиверы»">AV
+                                                                      ресиверы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_tsentry_i_minisistemy-c96/"
+                                                                             title="Перейти в категорию «Музыкальные центры»">Музыкальные
+                                                                      центры</a></li>
+                                                                      <li><a href="/catalogue/proigryvateli_vinilovykh_diskov_i_aksessuary-c4010/"
+                                                                             title="Перейти в категорию «Виниловые проигрыватели»">Виниловые
+                                                                      проигрыватели</a></li>
+                                                                      <li><a href="/catalogue/md_i_cd_proigryvateli-c866/"
+                                                                             title="Перейти в категорию «MD и CD-проигрыватели»">MD
+                                                                      и CD-проигрыватели</a></li>
+                                                                      <li><a href="/catalogue/komplekty_akustiki-c292/"
+                                                                             title="Перейти в категорию «Комплекты акустики»">Комплекты
+                                                                      акустики</a></li>
+                                                                      <li><a href="/catalogue/aksessuary_dlya_audiotekhniki-c1908/"
+                                                                             title="Перейти в категорию «Аксессуары для аудиотехники»">Аксессуары
+                                                                      для аудиотехники</a></li>
+                                                                      <li><a href="/catalogue/karaoke_sistemy-c1424/"
+                                                                             title="Перейти в категорию «Караоке системы»">Караоке
+                                                                      системы</a></li>
+                                                                      <li><a href="/catalogue/magnitoly-c97/"
+                                                                             title="Перейти в категорию «Магнитолы»">Магнитолы</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/megafony-c529/"
+                                                                             title="Перейти в категорию «Мегафоны»">Мегафоны</a>
+                                                                      </li>
+                                                               </ul>
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/zaryadnye_ustroystva_i_elementy_pitaniya-c454/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Зарядки и элементы питания»">Кондиционеры и обогреватели</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/zaryadnye_ustroystva_aa_aaa-c191/"
+                                                                             title="Перейти в категорию «Зарядные устройства AA/AAA»">Зарядные
+                                                                      устройства AA/AAA</a></li>
+                                                                      <li><a href="/catalogue/batareyki-c59/"
+                                                                             title="Перейти в категорию «Батарейки»">Батарейки</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/akkumulyatory_aa_aaa-c455/"
+                                                                             title="Перейти в категорию «Аккумуляторы»">Аккумуляторы</a>
+                                                                      </li>
+                                                               </ul>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                                      <a href="#" class="black">Пылесосы и уборочная техника</a>
+                                                               </span>
+
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/naushniki-c92/"
+                                                                             title="Перейти в категорию «Наушники»">Наушники</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/portativnaya_akustika-c311/"
+                                                                             title="Перейти в категорию «Портативная акустика»">Портативная
+                                                                      акустика</a></li>
+                                                                      <li><a href="/catalogue/umnye_kolonki-c5645/"
+                                                                             title="Перейти в категорию «Умные колонки»">Умные
+                                                                      колонки</a></li>
+                                                                      <li><a href="/catalogue/kolonki_hi_fi_i_sabvufery-c1225/"
+                                                                             title="Перейти в категорию «Колонки Hi-Fi и сабвуферы»">Колонки
+                                                                      Hi-Fi и сабвуферы</a></li>
+                                                                      <li><a href="/catalogue/muzykalnye_diski_i_plastinki-c7652/"
+                                                                             title="Перейти в категорию «Музыкальные диски и пластинки»">Музыкальные
+                                                                      диски и пластинки</a></li>
+                                                                      <li><a href="/catalogue/setevye_audiopleery-c552/"
+                                                                             title="Перейти в категорию «Сетевые аудиоплееры»">Сетевые
+                                                                      аудиоплееры</a></li>
+                                                               </ul>
+                                                               <a href="#"
+                                                                      title="Все категории" class="gray">Все категории</a>
+                                                               </div>
+
+                                                               <div class="mCM__item__panel__category ">
+                                                               <span class="mCM__item__panel__categoryTitle ">
+                                                               <a href="/catalogue/igry_soft_i_razvlecheniya-c798/"
+                                                                      class="black"
+                                                                      title="Перейти в категорию «Игры, софт и развлечения»">Игры,
+                                                                      софт и развлечения</a>
+                                                               </span>
+                                                               <ul class="mCM__item__panel__categoryList"
+                                                               >
+                                                                      <li><a href="/catalogue/playstation-c5451/"
+                                                                             title="Перейти в категорию «PlayStation»">PlayStation</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/xbox-c5453/"
+                                                                             title="Перейти в категорию «Xbox»">Xbox</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/nintendo-c5455/"
+                                                                             title="Перейти в категорию «Nintendo»">Nintendo</a>
+                                                                      </li>
+                                                                      <li><a href="/catalogue/igrovaya_atributika-c4856/"
+                                                                             title="Перейти в категорию «Игровая атрибутика»">Игровая
+                                                                      атрибутика</a></li>
+                                                                      <li><a href="/catalogue/geympady_ios_i_android-c6982/"
+                                                                             title="Перейти в категорию «Геймпады iOS и Android»">Геймпады
+                                                                      iOS и Android</a></li>
+                                                                      <li><a href="/catalogue/retro_konsoli-c64/"
+                                                                             title="Перейти в категорию «Ретро консоли»">Ретро
+                                                                      консоли</a></li>
+                                                                      <li><a href="/catalogue/figurki_funko_pop-c8314/"
+                                                                             title="Перейти в категорию «Фигурки Funko POP»">Фигурки
+                                                                      Funko POP</a></li>
+                                                               </ul>
+                                                               </div>
+                                                        </div>
+                                                 </div>
+
+                                                 <div class="mCM__item__panel__action">
+                                                        <div class="panelAction">
+                                                               <a href="#skidki_do_50_na_naushniki_urbanears-a14644.html?erid=LdtCKH3xD&amp;utm_source=internal&amp;utm_medium=banner&amp;utm_campaign=b25517"
+                                                               title="Скидки до 50% на наушники URBANEARS"
+                                                               class="panelAction__link">
+                                                               <div class="partWidth_bnr b_f">
+                                                                      <img src="https://static.onlinetrade.ru/img/banners/8_5293_1684762020.jpg"
+                                                                      alt="Скидки до 50% на наушники URBANEARS"
+                                                                      class="panelAction__image" loading="lazy">
+                                                               </div>
+                                                               </a>
+                                                        </div>
+                                                 </div>
+                                                 </div>
+                                                 <div class="mCM__item__panel__brandline">
+                                                 <h5>Популярные бренды</h5>
+
+                                                 <div class="mCM__item__panel__brands">
+                                                        <a href="/brands/rombica/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Rombica">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/rombica_logo_1.png"
+                                                               alt="Rombica" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/samsung/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Samsung">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                               alt="Samsung" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/df/" class="panelBrands__item"
+                                                        title="Посмотреть все товары DF">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/dflogo.PNG"
+                                                               alt="DF" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/rexant/" class="panelBrands__item"
+                                                        title="Посмотреть все товары REXANT">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/rexant.jpg"
+                                                               alt="REXANT" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/xiaomi/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Xiaomi">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/xiaomi_1671785385.png"
+                                                               alt="Xiaomi" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/sandisk/" class="panelBrands__item"
+                                                        title="Посмотреть все товары SanDisk">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/sandisk.png"
+                                                               alt="SanDisk" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/borasco/" class="panelBrands__item"
+                                                        title="Посмотреть все товары BoraSCO">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/borasco_1633697999.png"
+                                                               alt="BoraSCO" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/smartbuy/" class="panelBrands__item"
+                                                        title="Посмотреть все товары Smartbuy">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/logosmart.png"
+                                                               alt="Smartbuy" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+                                                        <a href="/brands/warner_music/" class="panelBrands__item"
+                                                        title="Посмотреть все товары WARNER MUSIC">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/warner_music_1633697857.png"
+                                                               alt="WARNER MUSIC" class="panelBrands__item__image"
+                                                               loading="lazy">
+                                                        </a>
+
+                                                 </div>
+                                                 </div>
+                                          </div>
+
+                                          </div>
+                                   </li>
+                                   </ul>
+                            </div>
+                     </div>
+                     </div>
+              </div>
+              </div>
+
+              <div class="clear"></div>
+              <div class="catalogLine__shadow js__catalogLine__shadow"></div>
+       </div>
+
+        <div class="content">
+              <div class="k_centered">
+                     <div class="fullWidth_bnr b_d1">
+                            <a title="РОЗЫГРЫШ" href="#">
+                                   <img alt="РОЗЫГРЫШ" src="https://static.onlinetrade.ru/img/banners/1_1_1689068864.jpg">
+                            </a>
+                      </div>
+                     
+
+                     <div class="breadcrumbs">
+                            <div class="breadcrumbs__list">
+                                   <div class="breadcrumbs__item">
+                                          <a itemprop="item" href="/" class="breadcrumbs__itemLink" title="Главная">
+                                                 <span itemprop="name">Главная</span>
+                                          </a>
+                                   </div>
+
+                                   <div class="breadcrumbs__item">
+                                          <a itemprop="item" href="/" class="breadcrumbs__itemLink" title="Главная">
+                                                 <span itemprop="name">Каталог</span>
+                                          </a>
+                                   </div>
+
+                                   <div class="breadcrumbs__item">
+                                        <a itemprop="item" href="/" class="breadcrumbs__itemLink  breadcrumbs__itemLink__linkArrowed js_breadcrumbs__itemLink" title="Главная">
+                                            <span itemprop="name">Электроника</span>
+                                        </a>
+
+
+                                        <!-- dropdown -->
+                                        <ul class="breadcrumbs__sublist">
+                                          <li class="breadcrumbs__subitem">
+                                                 <a href="#" class=" orange  " title="Телефоны и гаджеты">Телефоны и гаджеты</a>
+                                          </li>
+                                          <li class="breadcrumbs__subitem">
+                                                 <a href="#" class="   " title="Телефоны и гаджеты">Телефоны и гаджеты</a>
+                                          </li>
+                                          <li class="breadcrumbs__subitem">
+                                                 <a href="#" class="   " title="Телефоны и гаджеты">Телефоны и гаджеты</a>
+                                          </li>
+                                          <li class="breadcrumbs__subitem">
+                                                 <a href="#" class="   " title="Телефоны и гаджеты">Телефоны и гаджеты</a>
+                                          </li>
+                                          <li class="breadcrumbs__subitem">
+                                                 <a href="#" class="   " title="Телефоны и гаджеты">Телефоны и гаджеты</a>
+                                          </li>
+                                          <li class="breadcrumbs__subitem">
+                                                 <a href="#" class="   " title="Телефоны и гаджеты">Телефоны и гаджеты</a>
+                                          </li>
+                                        </ul>
+                                        <!-- ------------- -->
+                                   </div>
+                      
+                            </div>
+                     </div>
+
+                     <div class="clear">&nbsp;</div>
+
+                     <div class="productPage">
+                        <div class="productPage__card" data-price="15 900" data-img="assets/img/goods-one.jpg" data-name="Кофеварка Delonghi EC 685 M рожкового типа (Espresso)">
+                            <h1 itemprop="name" class="prod-name"></h1>
+                            <div class="catalog__displayedItem__marksLine">
+                                <div class="floatLeft">
+                                    <div class="marks">
+                                        <span title="-25%" class="mark mark__discount">-25%</span>
+                                        <span title="акция" class="mark mark__action">акция</span>
+                                    </div>
+                                    <div class="catalog__displayedItem__storeCode ">
+                                        <span class="gray">Код товара: </span>3691966</div> 
+                                        <a class="stars__cover js__tabs_externalLink" href="#tabs_feedbacks">
+                                            <div class="starsSVG" title="Нет оценок">
+                                                <span></span>
+                                            </div> 0
+                                        </a>
+                                </div>
+
+                                <div class="floatRight">
+                                    <a href="#" class="gray js__ajaxExchange">Нашли ошибку?</a>
+                                    <a href="#" class="gray js__ajaxExchange">Отправить описание на e-mail</a>
+                                    <a href="javascript:if(window.print)window.print()" class="compass-ic compass-printer-ic">&nbsp;</a>
+                                </div>
+                            </div>
+
+                            <div class="clear">&nbsp;</div>
+                            <div class="clear">&nbsp;</div>
+
+                            <div class="productPage__displayedItem">
+                                <div class="productPage__displayedItem__images">
+                                    <div class="productPage__displayedItem__images__thumbs productPage__displayedItem__images__thumbsSlider js__displayedItem__thumbsSlider swiperActive">
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-one.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-one.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-two.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-two.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-three.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-three.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-three.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-three.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-three.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-three.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-three.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-three.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="assets/img/goods-three.jpg" title="#" class="displayedItem__images__thumbLink js__displayedItem__images__thumbLink">
+                                                        <img src="assets/img/goods-three.jpg" alt="Солнцезащитный спрей для тела NIVEA Sun Защита и легкость SPF 30, 200 мл Изображение 1 - купить в интернет магазине с доставкой, цены, описание, характеристики, отзывы" class="displayedItem__images__thumbImage"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-prev">
+                                            <span class="compass-ic compass-arrow-up"></span>
+                                        </div>
+
+                                        <div class="swiper-button-next">
+                                            <span class="compass-ic compass-arrow-down"></span>
+                                        </div>
+                                    </div>
+                                    <div class="productPage__displayedItem__images__big">
+                                        <a href="#" id="js__displayedItem__images__bigLink__ID" class="productPage__displayedItem__images__bigLink js__ajaxExchange"  data-handlermode="photogallery" >
+                                            <img id="js__popupCatalogItem_bigImage__ID" class=" lazyloaded" src="#" data-src="#">
+                                            <div class="tempAfterImg"></div> 
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="productPage__displayedItem__columnRight js__priceCountCover">
+                                   <div class="productPage__offer">
+                                          <div class="productPage__priceCover">
+                                                 <p class="gray">Цена (Москва):</p>
+                                                 <div class="catalog__displayedItem__actualPrice">
+                                                        <span class="prodPrice"></span>
+                                                 </div>
+                                                 <div class="gray compass-credit-ic">
+                                                        В расрочку: 
+                                                        <span class="black nowrap">31 166₽/мес</span>
+                                                 </div>
+                                                 <div class="catalog__displayedItem__buttonCover">
+                                                        <div class="catalog__displayedItem__numsToBuy">
+                                                               <div class="bubbleOpenLink">
+                                                                      <a href="#" title="Меньше" class="numsToBuy__minus" id="js__numsToBuy__minus" >&nbsp;</a>
+                                                                      <input type="text" class="input__text js__itemIDCount" id='' value="1" min="1" maxlength="3" max="999">
+                                                                      <a href="#" title="Больше" class="numsToBuy__plus" id="js__numsToBuy__plus">&nbsp;</a>
+                                                               </div>
+                                                        </div>
+                                                        <span class="catalog__displayedItem__button">
+                                                               
+                                                               <button href="#" title="" class="button button__orange  js__ajaxExchange" onclick="modalOpen(event)">Купить</button>
+
+                                                               
+                                                        </span>
+                                                 </div>
+                                                 <div class="productPage__offerInfo">
+                                                        <span class="catalog__displayedItem__availabilityCount">в наличии 
+                                                               <label for="itemIDCount__ID">&gt; 10 шт.</label>
+                                                        </span>
+                                                        <div class="clear">&nbsp;</div>
+                                                 </div>
+                                                 <div class="productPage__offer__manage">
+                                                        <a href="/compare.html?cat_id=338" title="Перейти к сравнению">
+                                                               <span class="compass-ic compass-heart"></span>
+                                                               В закладки</a>
+                                                 </div>
+                                                 <div class="productPage__fastLinks">
+                                                        <a href="#tabs_availability" class="gray js__tabs_externalLink" title="Наличие">Наличие</a>
+                                                        <span class="separateDot">&nbsp;</span>
+                                                        <a href="#tabs_availability" class="gray js__tabs_externalLink" title="Доставка">Расрочка</a>    
+                                                        <span class="separateDot">&nbsp;</span>
+                                                        <a href="/info/payment.html" class="gray js__ajaxExchange">Оплата</a>
+                                                 </div>
+                                          </div>
+                                   </div>
+                                   <div class="clear">&nbsp;</div>
+                                </div>
+                                <div class="productPage__displayedItem__columnLeft">
+                                   <div class="descr__columnCell">
+                                          <div class="descr__techicalBrand__item">
+                                                 <span class="gray">Код производителя:</span>
+                                                 <span class="nowrap">RTX 4090 SUPRIM X CLASSIC 24G</span>
+                                          </div>
+                                          <div class="descr__techicalBrand__item">
+                                                 <span class="gray">Гарантия:</span>
+                                                 <span class="nowrap">36мес.</span>
+                                          </div>
+                                   </div>
+                                   <div class="productPage__shortProperties">
+                                          <h5>Характеристики</h5>
+                                          <ul class="featureList columned">
+                                                 <li class="featureList__item">
+                                                        <span class="gray">Частота графического процессора (базовая):</span
+                                                        >н.д. МГц&nbsp;
+                                                 </li>
+                                                 <li class="featureList__item">
+                                                        <span class="gray">Тип видеопамяти:</span
+                                                        >GDDR6X&nbsp;
+                                                 </li>
+                                                 <li class="featureList__item">
+                                                        <span class="gray">Объем видеопамяти:</span
+                                                        >24 Гб&nbsp;
+                                                 </li>
+                                                 <li class="featureList__item">
+                                                        <span class="gray">Шина памяти:</span
+                                                        >384 бит&nbsp;
+                                                 </li>
+                                                 <li class="featureList__item">
+                                                        <span class="gray">Частота видеопамяти:</span
+                                                        >21000 МГц&nbsp;
+                                                 </li>
+                                                 <li class="featureList__item">
+                                                        <span class="gray">Графический процессор:</span
+                                                        >NVIDIA GeForce RTX 4090&nbsp;
+                                                 </li>
+                                          </ul>
+                                          <a href="#tabs_description" class="js__tabs_externalLink" title="Полное описание и характеристики">Полное описание и характеристики</a>
+                                   </div>
+                                   <div class="descr__techicalBrand__info">
+                                          <div class="descr__techicalBrand__brandLogo">
+                                                 <noindex>
+                                                        <a href="#" nofollow="">
+                                                               <img src="https://static.onlinetrade.ru/img/brands/2017_msi_dragon_spirit_logo.png" alt="MSI">
+                                                        </a>
+                                                 </noindex>
+                                          </div>
+                                          <div class="descr__techicalBrand__brandLink">
+                                                 <span class="gray">Все товары</span>
+                                                 <a href="/brands/msi/" title="Все товары MSI">MSI</a>
+                                          </div>
+                                          <div class="clear">&nbsp;</div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                            <div class="clear">&nbsp;</div>
+
+                            <div class="productPage__afterLine small gray">
+                                   <div class="floatRight">Товар добавлен: 22.06.2023</div>
+                                   Цена и условия приобретения товара действительны до: 28.07.2023 9:15
+                            </div>
+                        </div>
+                        <div class="clear">&nbsp;</div>
+                        <div class="tabs tabsIconed">
+                            <ul class="tabs__nav">
+                                   <li class="tabs-nav-item">
+                                          
+                                          <a href="#tabs_description" title="#" role="presentation" tabindex="-1" class="ui-tabs-anchor d-flex align-content-center" id="ui-id-1">
+                                                 <span class="compass-ic compass-dis"></span> Описание
+                                          </a>
+
+                                   </li>
+                                   <li class="tabs-nav-item">
+                                          <a href="#tabs_a" title="#" role="presentation" tabindex="-1" class="ui-tabs-anchor d-flex align-content-center" id="ui-id-1">
+                                                 <span class="compass-ic compass-test"></span> Test
+                                          </a>
+                                   </li>
+                            </ul>
+                            <div class="tabs__item" id="tabs_description">
+                                 <div class="oldContent">
+                                   <div class="descriptionText_cover richcontent__cover">
+                                          <h2>Wi-Fi роутер MSI RadiX AX6600 (GRAX66)</h2>
+                                          <h5 class="aigc"> Общие параметры </h5>
+                                          <ul class="aigc">
+                                                 <li>Тип  Wi-Fi роутер</li>
+                                                 <li>Модель  MSI RadiX AX6600</li>
+                                                 <li>Основной цвет  черный</li>
+                                                 <li>Код производителя  [GRAX66]</li>
+                                          </ul>
+                                          <h3 class="aigc"> Аппаратная часть </h3>
+                                          <ul class="aigc">
+                                                 <li>Процессор  1.8 ГГц</li>
+                                                 <li>Количество ядер  4</li>
+                                                 <li>Объем оперативной памяти  512 МБ</li>
+                                                 <li>Flash-память  256 МБ</li>
+                                          </ul>
+                                          <h3 class="aigc"> Подключение к сети интернет (WAN) </h3>
+                                          <ul class="aigc">
+                                                 <li>Тип подключения  Ethernet</li>
+                                                 <li>Мобильный выход в интернет  нет</li>
+                                                 <li>Поддержка IPv6 есть</li>
+                                          </ul>
+                                          <h3 class="aigc"> Параметры Wi-Fi </h3>
+                                          <ul class="aigc">
+                                                 <li>Wi-Fi  есть</li>
+                                                 <li>Стандарт Wi-Fi  4 (802.11n), 5 (802.11ac), 6 (802.11ax)</li>
+                                                 <li>Класс Wi-Fi  AX6600</li>
+                                                 <li>Максимальная скорость по частоте 2.4 ГГц  574 Мбит/с</li>
+                                                 <li>Максимальная скорость по частоте 5 ГГц  4804 Мбит/с</li>
+                                                 <li>Количество диапазонов 5 ГГц  2</li>
+                                                 <li>Одновременная работа в двух диапазонах  есть</li>
+                                                 <li>Многопотоковая передача данных  MU-MIMO</li>
+                                                 <li>Тип и количество антенн  внешняя несъемная x6</li>
+                                                 <li>Безопасность соединения  WPA-PSK, WPA2-PSK, WPA3-PSK</li>
+                                          </ul>
+                                          <h3 class="aigc"> Порты </h3>
+                                          <ul class="aigc">
+                                                 <li>Количество LAN портов  4</li>
+                                                 <li>Скорость передачи по проводному подключению  1000 Мбит/с, 2500 Мбит/с</li>
+                                                 <li>Количество SFP портов  нет</li>
+                                                 <li>USB разъем   USB 3.0 x1</li>
+                                                 <li>Функции USB  FTP - сервер, Media - сервер, Samba - сервер</li>
+                                          </ul>
+                                                 <h3 class="aigc"> Маршрутизация </h3>
+                                                 <ul class="aigc">
+                                                        <li>Поддержка DHCP  есть</li>
+                                                        <li>Статическая маршрутизация  есть</li>
+                                                        <li>Dynamic DNS (DDNS)  есть</li>
+                                                 </ul>
+                                                        <h3 class="aigc"> Безопасность </h3>
+                                                        <ul class="aigc">
+                                                               <li>Межсетевой экран (Firewall)  есть</li>
+                                                               <li>NAT  есть</li>
+                                                               <li>Демилитаризованная зона (DMZ)  есть</li>
+                                                               <li>Фильтрация  по IP-адресу, по URL-адресу</li>
+                                                               <li>Гостевая сеть  есть</li>
+                                                               <li>Родительский контроль  есть</li>
+                                                        </ul>
+                                                        <h3 class="aigc"> Функции </h3>
+                                                        <ul class="aigc">
+                                                               <li>Управление  MSI Center, Web-интерфейс, мобильное приложение</li>
+                                                               <li>Режимы работы  маршрутизатор, точка доступа</li>
+                                                        </ul>
+                                                               <h3 class="aigc"> Дополнительно </h3>
+                                                               <ul class="aigc">
+                                                                      <li>Количество юнитов в комплекте  1 шт</li>
+                                                                      <li>Возможность установки вне помещения  нет</li>
+                                                                      <li>Комплектация  адаптер питания, документация, кабель Ethernet</li>
+                                                                      <li>Дополнительная информация  Beamforming, OFDMA, Smart Connect, проброс портов</li>
+                                                                      <li>Тип и напряжение питания  блок питания 12В/3.5А</li>
+                                                                      <li>Мобильное приложение  MSI Router</li>
+                                                                      <li>Игровой  да</li>
+                                                               </ul>
+                                                               <h3 class="aigc"> Габариты, Вес </h3>
+                                                               <ul class="aigc">
+                                                                      <li>Ширина  338 мм</li>
+                                                                      <li>Длина/Глубина  224 мм</li>
+                                                                      <li>Высота  198 мм</li>
+                                                                      <li>Вес  1090 г</li>
+                                                               </ul>     
+                                          </div>
+                                   </div>
+
+                                   <h2>Характеристики</h2>
+
+                                   <div class="featureList js__backlightingClick">
+                                          <li class="featureList__item"><span class="gray">Тип устройства:</span>роутер&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">Слот для SIM-карт::</span>нет&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">Скорость Ethernet портов::</span>10/100/1000/2500 Мб/с&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">USB-порт:</span>USB 3.0х1&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">Стандарт Wi-Fi:</span>Wi-Fi 5 (802.11ac), Wi-Fi 4 (802.11n), Wi-Fi 6 (802.11ax)&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">Частотный диапазон:</span>2.4 ГГц, 5.0 ГГц&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">Порты Ethernet:</span>4&nbsp;</li>
+                                          <li class="featureList__item"><span class="gray">Поддержка AiMesh:</span>нет &nbsp;</li>
+                                   </div>
+                            </div>
+                            <div class="tabs__item" id="tabs_a">
+                                   <div class="oldContent">
+                                     <div class="descriptionText_cover richcontent__cover">
+                                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                                            <h5 class="aigc"> Lorem, ipsum. </h5>
+                                            <ul class="aigc">
+                                                   <li>Lorem, ipsum dolor.</li>
+                                                   <li>Lorem ipsum dolor sit.</li>
+                                                   <li>Lorem, ipsum dolor.</li>
+                                                   <li>Lorem, ipsum dolor.</li>
+                                            </ul>
+                                            <h3 class="aigc"> Аппаратная часть </h3>
+                                            <ul class="aigc">
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem ipsum dolor sit.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                            </ul>
+                                            <h3 class="aigc"> Подключение к сети интернет (WAN) </h3>
+                                            <ul class="aigc">
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem ipsum dolor sit.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                            </ul>
+                                            <h3 class="aigc"> Параметры Wi-Fi </h3>
+                                            <ul class="aigc">
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem ipsum dolor sit.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem ipsum dolor sit.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                            </ul>
+                                            <h3 class="aigc"> Порты </h3>
+                                            <ul class="aigc">
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem ipsum dolor sit.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                                 <li>Lorem, ipsum dolor.</li>
+                                            </ul>
+                                                   <h3 class="aigc"> Маршрутизация </h3>
+                                                   <ul class="aigc">
+                                                        <li>Lorem, ipsum dolor.</li>
+                                                        <li>Lorem ipsum dolor sit.</li>
+                                                        <li>Lorem, ipsum dolor.</li>
+                                                        <li>Lorem, ipsum dolor.</li>
+                                                   </ul>
+                                                          <h3 class="aigc"> Безопасность </h3>
+                                                          <ul class="aigc">
+                                                               <li>Lorem, ipsum dolor.</li>
+                                                               <li>Lorem ipsum dolor sit.</li>
+                                                               <li>Lorem, ipsum dolor.</li>
+                                                               <li>Lorem, ipsum dolor.</li>
+                                                          </ul>
+                                                          <h3 class="aigc"> Функции </h3>
+                                                          <ul class="aigc">
+                                                                 <li>Управление  MSI Center, Web-интерфейс, мобильное приложение</li>
+                                                                 <li>Режимы работы  маршрутизатор, точка доступа</li>
+                                                          </ul>
+                                                                 <h3 class="aigc"> Дополнительно </h3>
+                                                                 <ul class="aigc">
+                                                                      <li>Lorem, ipsum dolor.</li>
+                                                                      <li>Lorem ipsum dolor sit.</li>
+                                                                      <li>Lorem, ipsum dolor.</li>
+                                                                      <li>Lorem, ipsum dolor.</li>
+                                                                 </ul>
+                                                                 <h3 class="aigc"> Габариты, Вес </h3>
+                                                                 <ul class="aigc">
+                                                                      <li>Lorem, ipsum dolor.</li>
+                                                                      <li>Lorem ipsum dolor sit.</li>
+                                                                      <li>Lorem, ipsum dolor.</li>
+                                                                      <li>Lorem, ipsum dolor.</li>
+                                                                 </ul>     
+                                            </div>
+                                     </div>
+                              </div>
+                        </div>
+
+                        <div class="after_tabs"><div class="clear">&nbsp;</div></div>
+                     </div>
+
+                     <div class="clear">&nbsp;</div>
+
+                     <div class="recentViews">
+                            <div class="noPrint">
+                                   <a href="#" title="Весь список просмотренных товаров" class="to_H2line floatRight gray">Все просмотренные товары</a>
+                                   <h2>Недавно просмотренные товары </h2>
+                            </div>     
+
+                            <div class="goods__items  oneline minilisting  noPrint">
+                                   <div class="indexGoods__item" itemscope="" itemtype="http://schema.org/Product" id="item_container_594521__ID">
+                                          <div class="indexGoods__item__manageTop">
+                                                 <span class="indexGoods__item__fastView js__ajaxExchange ic__set ic__set__viewed" data-handler="popup" data-handlermode="preview" data-itemid="796173" title="Быстрый просмотр «Мойка высокого давления KARCHER K 5 Basic»">&nbsp;</span> 
+                                                 <a href="#?add_item_id=594521" title="Добавить в закладки «Мойка высокого давления KARCHER K 5 Basic»" class="ic__hasSet ic__hasSet__bookmark js__ajaxExchange" data-handler="bookmarks" data-handlermode="add" data-itemid="594521" data-titletrue="Удалить из закладок" data-titlefalse="В закладки" data-captiontrue=" " data-captionfalse=" "> </a>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__flexCover"><a href="#" class="indexGoods__item__image" title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">
+                                                 <img src="https://static.onlinetrade.ru/img/items/s/moyka_visokogo_davleniya_karcher_k_5_basic_1.jpg" alt="Мойка высокого давления KARCHER K 5 Basic"></a>
+                                                 
+                                                 <div class="marks">
+                                                        <span class="mark mark__club" title="клуб">клуб</span>
+                                                 </div> 
+                                                 
+                                                 <div class="indexGoods__item__descriptionCover">
+                                                        <div class="indexGoods__item__stars">
+                                                               <a href="##tabs_feedbacks" title="Читать отзывы о товаре «Мойка высокого давления KARCHER K 5 Basic»">
+                                                                      <div class="starsSVG stars5" title="5 звезд по 25 оценкам">
+                                                                             <span></span>
+                                                                      </div>
+                                                               25
+                                                               </a>
+                                                        </div>
+                                                        
+                                                        <a href="#" class="indexGoods__item__name  indexGoods__item__name__3lines  " title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">Мойка высокого давления KARCHER K 5 Basic</a> 
+                                                 </div>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__dataCover"><div class="indexGoods__item__price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"> 
+                                                        <span class="price regular">29 990 ₽</span>
+                                                 </div>
+                                                 <div class="indexGoods__item__bonuses">
+                                                        <span class="ic__hasSet ic__hasSet__onbonus" title="ON-бонус">
+                                                               <span class="detaillisting__display gray">ON-бонусов:</span> 418 ₽
+                                                        </span>&nbsp;
+                                                 </div>
+                                                 <div class="indexGoods__item__manage">
+                                                        <a href="./goods-page.html" title="Купить Мойка высокого давления KARCHER K 5 Basic" rel="nofollow" class="button button__orange js__ajaxExchange" data-handler="buy" data-itemid="594521" data-itemcount="1">Купить</a>
+                                                 </div>
+                                          </div>
+                                   </div>
+
+                                   <div class="indexGoods__item" itemscope="" itemtype="http://schema.org/Product" id="item_container_594521__ID">
+                                          <div class="indexGoods__item__manageTop">
+                                                 <span class="indexGoods__item__fastView js__ajaxExchange ic__set ic__set__viewed" data-handler="popup" data-handlermode="preview" data-itemid="796173" title="Быстрый просмотр «Мойка высокого давления KARCHER K 5 Basic»">&nbsp;</span> 
+                                                 <a href="#?add_item_id=594521" title="Добавить в закладки «Мойка высокого давления KARCHER K 5 Basic»" class="ic__hasSet ic__hasSet__bookmark js__ajaxExchange" data-handler="bookmarks" data-handlermode="add" data-itemid="594521" data-titletrue="Удалить из закладок" data-titlefalse="В закладки" data-captiontrue=" " data-captionfalse=" "> </a>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__flexCover"><a href="#" class="indexGoods__item__image" title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">
+                                                 <img src="https://static.onlinetrade.ru/img/items/s/moyka_visokogo_davleniya_karcher_k_5_basic_1.jpg" alt="Мойка высокого давления KARCHER K 5 Basic"></a>
+                                                 
+                                                 <div class="marks">
+                                                        <span class="mark mark__club" title="клуб">клуб</span>
+                                                 </div> 
+                                                 
+                                                 <div class="indexGoods__item__descriptionCover">
+                                                        <div class="indexGoods__item__stars">
+                                                               <a href="##tabs_feedbacks" title="Читать отзывы о товаре «Мойка высокого давления KARCHER K 5 Basic»">
+                                                                      <div class="starsSVG stars5" title="5 звезд по 25 оценкам">
+                                                                             <span></span>
+                                                                      </div>
+                                                               25
+                                                               </a>
+                                                        </div>
+                                                        
+                                                        <a href="#" class="indexGoods__item__name  indexGoods__item__name__3lines  " title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">Мойка высокого давления KARCHER K 5 Basic</a> 
+                                                 </div>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__dataCover"><div class="indexGoods__item__price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"> 
+                                                        <span class="price regular">29 990 ₽</span>
+                                                 </div>
+                                                 <div class="indexGoods__item__bonuses">
+                                                        <span class="ic__hasSet ic__hasSet__onbonus" title="ON-бонус">
+                                                               <span class="detaillisting__display gray">ON-бонусов:</span> 418 ₽
+                                                        </span>&nbsp;
+                                                 </div>
+                                                 <div class="indexGoods__item__manage">
+                                                        <a href="./goods-page.html" title="Купить Мойка высокого давления KARCHER K 5 Basic" rel="nofollow" class="button button__orange js__ajaxExchange" data-handler="buy" data-itemid="594521" data-itemcount="1">Купить</a>
+                                                 </div>
+                                          </div>
+                                   </div>
+
+                                   <div class="indexGoods__item" itemscope="" itemtype="http://schema.org/Product" id="item_container_594521__ID">
+                                          <div class="indexGoods__item__manageTop">
+                                                 <span class="indexGoods__item__fastView js__ajaxExchange ic__set ic__set__viewed" data-handler="popup" data-handlermode="preview" data-itemid="796173" title="Быстрый просмотр «Мойка высокого давления KARCHER K 5 Basic»">&nbsp;</span> 
+                                                 <a href="#?add_item_id=594521" title="Добавить в закладки «Мойка высокого давления KARCHER K 5 Basic»" class="ic__hasSet ic__hasSet__bookmark js__ajaxExchange" data-handler="bookmarks" data-handlermode="add" data-itemid="594521" data-titletrue="Удалить из закладок" data-titlefalse="В закладки" data-captiontrue=" " data-captionfalse=" "> </a>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__flexCover"><a href="#" class="indexGoods__item__image" title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">
+                                                 <img src="https://static.onlinetrade.ru/img/items/s/moyka_visokogo_davleniya_karcher_k_5_basic_1.jpg" alt="Мойка высокого давления KARCHER K 5 Basic"></a>
+                                                 
+                                                 <div class="marks">
+                                                        <span class="mark mark__club" title="клуб">клуб</span>
+                                                 </div> 
+                                                 
+                                                 <div class="indexGoods__item__descriptionCover">
+                                                        <div class="indexGoods__item__stars">
+                                                               <a href="##tabs_feedbacks" title="Читать отзывы о товаре «Мойка высокого давления KARCHER K 5 Basic»">
+                                                                      <div class="starsSVG stars5" title="5 звезд по 25 оценкам">
+                                                                             <span></span>
+                                                                      </div>
+                                                               25
+                                                               </a>
+                                                        </div>
+                                                        
+                                                        <a href="#" class="indexGoods__item__name  indexGoods__item__name__3lines  " title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">Мойка высокого давления KARCHER K 5 Basic</a> 
+                                                 </div>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__dataCover"><div class="indexGoods__item__price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"> 
+                                                        <span class="price regular">29 990 ₽</span>
+                                                 </div>
+                                                 <div class="indexGoods__item__bonuses">
+                                                        <span class="ic__hasSet ic__hasSet__onbonus" title="ON-бонус">
+                                                               <span class="detaillisting__display gray">ON-бонусов:</span> 418 ₽
+                                                        </span>&nbsp;
+                                                 </div>
+                                                 <div class="indexGoods__item__manage">
+                                                        <a href="./goods-page.html" title="Купить Мойка высокого давления KARCHER K 5 Basic" rel="nofollow" class="button button__orange js__ajaxExchange" data-handler="buy" data-itemid="594521" data-itemcount="1">Купить</a>
+                                                 </div>
+                                          </div>
+                                   </div>
+
+                                   <div class="indexGoods__item" itemscope="" itemtype="http://schema.org/Product" id="item_container_594521__ID">
+                                          <div class="indexGoods__item__manageTop">
+                                                 <span class="indexGoods__item__fastView js__ajaxExchange ic__set ic__set__viewed" data-handler="popup" data-handlermode="preview" data-itemid="796173" title="Быстрый просмотр «Мойка высокого давления KARCHER K 5 Basic»">&nbsp;</span> 
+                                                 <a href="#?add_item_id=594521" title="Добавить в закладки «Мойка высокого давления KARCHER K 5 Basic»" class="ic__hasSet ic__hasSet__bookmark js__ajaxExchange" data-handler="bookmarks" data-handlermode="add" data-itemid="594521" data-titletrue="Удалить из закладок" data-titlefalse="В закладки" data-captiontrue=" " data-captionfalse=" "> </a>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__flexCover"><a href="#" class="indexGoods__item__image" title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">
+                                                 <img src="https://static.onlinetrade.ru/img/items/s/moyka_visokogo_davleniya_karcher_k_5_basic_1.jpg" alt="Мойка высокого давления KARCHER K 5 Basic"></a>
+                                                 
+                                                 <div class="marks">
+                                                        <span class="mark mark__club" title="клуб">клуб</span>
+                                                 </div> 
+                                                 
+                                                 <div class="indexGoods__item__descriptionCover">
+                                                        <div class="indexGoods__item__stars">
+                                                               <a href="##tabs_feedbacks" title="Читать отзывы о товаре «Мойка высокого давления KARCHER K 5 Basic»">
+                                                                      <div class="starsSVG stars5" title="5 звезд по 25 оценкам">
+                                                                             <span></span>
+                                                                      </div>
+                                                               25
+                                                               </a>
+                                                        </div>
+                                                        
+                                                        <a href="#" class="indexGoods__item__name  indexGoods__item__name__3lines  " title="Подробнее о «Мойка высокого давления KARCHER K 5 Basic»">Мойка высокого давления KARCHER K 5 Basic</a> 
+                                                 </div>
+                                          </div>
+                                          
+                                          <div class="indexGoods__item__dataCover"><div class="indexGoods__item__price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"> 
+                                                        <span class="price regular">29 990 ₽</span>
+                                                 </div>
+                                                 <div class="indexGoods__item__bonuses">
+                                                        <span class="ic__hasSet ic__hasSet__onbonus" title="ON-бонус">
+                                                               <span class="detaillisting__display gray">ON-бонусов:</span> 418 ₽
+                                                        </span>&nbsp;
+                                                 </div>
+                                                 <div class="indexGoods__item__manage">
+                                                        <a href="./goods-page.html" title="Купить Мойка высокого давления KARCHER K 5 Basic" rel="nofollow" class="button button__orange js__ajaxExchange" data-handler="buy" data-itemid="594521" data-itemcount="1">Купить</a>
+                                                 </div>
+                                          </div>
+                                   </div>
+
+                            </div>
+                     </div>
+       
+              </div>
+        </div>
+
+        <div id="footer">
+        <div class="footer__infoline">
+                <div class="k_centered">
+                        <div class="footer__infoline__item">
+                                <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                                <div class="footer__infoline__item__text">
+                                        <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                                        <span class="nowrap">выдачи заказов</span>
+                                </div>
+                        </div>
+                        <div class="footer__infoline__item">
+                                <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                                <div class="footer__infoline__item__text">
+                                        <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                                        <span class="nowrap">выдачи заказов</span>
+                                </div>
+                        </div>
+                        <div class="footer__infoline__item">
+                                <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                                <div class="footer__infoline__item__text">
+                                        <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                                        <span class="nowrap">выдачи заказов</span>
+                                </div>
+                        </div>
+                        <div class="footer__infoline__item">
+                                <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                                <div class="footer__infoline__item__text">
+                                        <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                                        <span class="nowrap">выдачи заказов</span>
+                                </div>
+                        </div>
+                        <div class="footer__infoline__item">
+                                <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                                <div class="footer__infoline__item__text">
+                                        <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                                        <span class="nowrap">выдачи заказов</span>
+                                </div>
+                        </div>
+                        <div class="footer__infoline__item">
+                                <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                                <div class="footer__infoline__item__text">
+                                        <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                                        <span class="nowrap">выдачи заказов</span>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="footer__linksline">
+                <div class="k_centered">
+                        <div class="footer__linksline__logo" itemscope="" itemtype="http://schema.org/Organization">
+                                <meta itemprop="name" content="Compass">
+                                <meta itemprop="url" content="">
+
+                                <a itemprop="url" href="./" title="На главную" class="footer__logo">
+                                        <img itemprop="logo" src="assets/img/logo-dark.png" width="170" alt="Compass" title="Compass" class="footer__logo__image">
+                                </a>
+                        </div>
+
+                        <div class="footer__linksline__contacts">
+                                <div class="footer__linksline__smo">
+                                        <a href="#" title="ВКонтакте" class="ic__social_24x20 ic__social_24x20__vk" target="_blank" rel="noopener">&nbsp;</a>
+                                        <a href="#" title="Telegram" class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                                        <a href="#" title="YouTube" class="ic__social_24x20 ic__social_24x20__yt" target="_blank" rel="noopener">&nbsp;</a>
+                                </div>
+                                <ul class="footer__links__column">
+                                        <li>
+                                                <h5><a href="#" class="semibold" title="Обратная связь">Помощь и поддержка</a></h5>
+                                        </li>
+                                        <li>
+                                                <a href="#" title="Политика конфиденциальности Compass">Политика конфиденциальности</a>
+                                        </li><!--noindex-->
+                                        <li>
+                                                <a href="#" rel="nofollow" title="Мобильная версия">Мобильная версия</a>
+                                        </li><!--/noindex-->
+                                </ul>
+
+                                <noindex>
+                                        <span style="display: none; irr_cstk: 5">0.318</span>
+                                </noindex>
+                        </div>
+
+                        <div class="footer__linksline__links">
+                                <ul class="footer__links__column">
+                                        <li><h5>Compass</h5></li>
+                                        <li><a href="#" title="О компании">О компании</a></li>
+                                        <li><a href="#" title="Вакансии">Вакансии</a></li>
+                                        <li><a href="#" title="Дилерам">Дилерам</a></li>
+                                        <li><a href="#" title="Для прессы">Для прессы</a></li>
+                                        <li><a href="#" title="Новости">Новости</a></li>
+                                </ul>
+
+                                <ul class="footer__links__column">
+                                        <li><h5>Интернет-магазин</h5></li>
+                                        <li><a href="#" title="Каталог товаров">Каталог товаров</a></li>
+                                        <li><a href="#" title="Пункты выдачи">Пункты выдачи</a></li>
+                                        <li><a href="#" title="Клуб ON-бонус">Клуб ON-бонус</a></li>
+                                        <li><a href="#" title="Гарантийное обслуживание">Гарантийное обслуживание</a></li>
+                                        <li><a href="#" title="Оплата заказа">Оплата заказа</a></li>
+                                </ul>
+
+                                <ul class="footer__links__column">
+                                        <li><h5>Услуги</h5></li>
+                                        <li><a href="#" title="Доставка">Доставка</a></li>
+                                        <li><a href="#" title="Самовывоз">Самовывоз</a></li>
+                                        <li><a href="#" title="Сервисный центр">Сервис-центр</a></li>
+                                </ul>
+                        </div>
+
+                        <div class="clear">&nbsp;</div>
+                </div>
+
+                <div class="footer__countersline">
+                        <div class="k_centered">
+                                <div class="footer__countersline__smo">Цены и условия действительны до: 
+                                        <span class="nowrap">18.07.2023 19:25</span>
+                                </div>
+
+                                <div class="footer__countersline__middle">
+                                        <span class="footer__copyright">© 
+                                                <a href="./" title="На главную страницу">Compass</a> 
+                                                <span class="nowrap">1998–2023</span>
+                                        </span>
+                                        <img src="assets/img/banks.png" height="27" alt="принимаем к оплате">
+                                </div>
+
+                                <div class="footer__countersline__market">
+                                        <div class="siteAgeRate">16+</div>
+                                </div>
+                        </div>
+                </div>
+                </div>
+        </div>
+
+
+    </div>
+
+
+    
+       <a href="#" class="shopping-basket">
+              <span class="cp-icon cp-icon-shopping-b"></span>
+       </a>
+
+       <a href="#" class="totop-btn">
+              <span class="compass-ic compass-arrow-up contain"></span>
+       </a>
+
+
+       <div class="modal">
+              <div class="modal-shadow" onclick="closeModal()"></div>
+              <div class="modal-window">
+                     <div class="modal-header">
+                            <h3>Товар добавлен в корзину</h3>
+       
+                            <button class="close-modal" onclick="closeModal()"></button>
+                     </div>
+       
+                     <div class="modal-message">
+
+                            <div class="goods-to-basket">
+                                   <div class="addedToCart_itemsList">
+                                          <div class="addedToCart_itemInfo">
+                                                 <div class="addedToCart_itemInfo__image">
+                                                        <img src="https://static.onlinetrade.ru/img/items/s/sumka_guess_hwvb8385050_zhenskaya_tsvet_bezhevo_rozovyy_2600483_1.jpg">
+                                                 </div>
+
+                                                 <div class="addedToCart_itemInfo__data">
+                                                        <p>
+                                                               <span class="gray">Товар:</span> 
+                                                               <span class="prod-name"></span><br>
+                                                               <span class="gray">Цена:</span> <span class="prodPrice"></span><br>
+                                                               <span class="gray">Количество:</span> 
+                                                               <span class="modal-count-prod"></span> шт.</p>
+                                                 </div>
+                                          </div>
+
+                                   </div>
+                                   <a href="#" class="button button__clearGray active">Оформить заказ</a>
+                                   <button class="no-btn" title="Продолжить покупки" onclick="closeModal()">Продолжить покупки</button>
+                            </div>
+
+
+                            <div class="formLines js__formBox" id="login-massage" style="display: none;">
+                                   <form name="" action="" method="post">
+                                          <div class="formLine">
+                                                 <div class="formLine__label">
+                                                        <label for="login">E-mail</label>
+                                                 </div>
+                                                 <div class="formLine__content width320">
+                                                        <div class="importantmarkCover">
+                                                               <input type="text" class="input__text" name="login" id="ajax_login_popup_email"></div> 
+                                                        </div>
+                                                 </div> 
+                                                 <div class="formLine">
+                                                        <div class="formLine__label">
+                                                               <label for="login">Пароль</label>
+                                                        </div>
+                                                        <div class="formLine__content width320">
+                                                               <div class="importantmarkCover">
+                                                                      <input type="password" class="input__text " name="password" id="ajax_login_popup_pass">
+                                                               </div> 
+                                                        </div>
+                                                 </div> 
+                                                 <div class="formLine">
+                                                        <div class="formLine__content d-flex align-content-center">
+                                                               <input type="checkbox" class="checkbox-compass-custom" id="autologin" name="autologin" value="1" checked="checked">
+                                                               <label for="autologin" class="checkbox-compass-custom-label">  
+                                                               </label>
+                                                               <span>Запомнить меня</span>
+                                                        </div>
+                                                 </div>
+                                                 <div class="formLine">
+                                                        <div class="formLine__content">
+                                                               <a href="/member/register.html" class="formLines__registerLink" title="Или зарегистрироваться">Регистрация</a>
+                                                               <input class="button button__orange" type="submit" name="submit" value="Вход">
+                                                               <a href="/member/restore.html" class="formLines__restorePassLink" title="Забыли пароль?">Забыли пароль?</a>
+                                                               <input type="hidden" value="1" name="log_in">
+                                                               <input type="hidden" value="2d4ca0b63572896a949d617ed7084370" name="token">
+                                                        </div>
+                                                 </div>
+                                          </form>
+                            </div>
+       
+                            <div class="clear"> </div>
+                     </div>
+              </div>
+           </div>
+</div>
+
+
+<!-- sctipts -->
+<script src="assets/plugins/jquery/jq-1.11.1.js"></script>
+<script src="assets/plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js"></script>
+ 
+
+<script src="assets/plugins/swiper.js/swiper-bundle.min.js"></script>
+<script src="assets/script/script.js"></script>
+<script src="assets/plugins/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+
+<script></script>
+
+</body>
+
+</html>

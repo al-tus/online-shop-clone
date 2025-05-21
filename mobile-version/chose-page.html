@@ -1,0 +1,2124 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-anchor: none;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/plugins/swiper.js/swiper-style.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+
+<div id="main">
+
+    <div class="header__cover">
+
+        <div class="header">
+
+            <a class="header__icons header__icons__home" href="index.html">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__menu js__headline__menuLink" data-barid="headline__barMenu__ID"
+               href="#">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__search js__headline__menuLink" href="#"
+               data-barid="headline__barSearch__ID">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__member js__headline__menuLink" href="#"
+               data-barid="headline__barLogin__ID">
+
+                <div class="header__icon">&nbsp;</div>
+            </a><!-- .header__icons (end)-->
+
+            <a class="header__icons header__icons__cart js__headline__menuLink js__header__basketCover" href="#"
+               data-barid="headline__barCart__ID">
+
+                <div class="header__icon header__iconColor0">
+                    <span class="itemCount">5</span>
+                </div>
+
+            </a><!-- .header__icons (end)-->
+
+
+        </div><!-- .header (end)-->
+
+    </div><!-- .header__cover (end)-->
+
+    <div id="bars_cover__ID">
+
+        <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barMenu__ID">
+            <ul class="mainMenu">
+                <li class="mCM__item">
+                    <a href="catalog.html" class="mCM__item__link mCM__item__linkArrowed catalogueLink" title="Каталог товаров">Каталог
+                        товаров </a>
+                </li>
+                <li class="mCM__item">
+                    <a href="#" class="mCM__item__link mCM__item__linkArrowed js_mCM_toggler" title="Как купить">Как
+                        купить</a>
+
+                    <ul class="subCategoryMenu">
+                        <li class="sCM__item">
+                            <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                        </li>
+                        <li class="sCM__item">
+                            <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                        </li>
+                        <li class="sCM__item">
+                            <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                        </li>
+                        <li class="sCM__item">
+                            <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                        </li>
+                        <li class="sCM__item">
+                            <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="mCM__item noBorder">
+                    <a href="#" class="mCM__item__link" title="Акции" style="padding-top: 13px">Акции</a>
+                </li>
+                <li class="mCM__item noBorder">
+                    <a href="#" class="mCM__item__link" title="">Акции</a>
+                </li>
+                <li class="mCM__item noBorder">
+                    <a href="#" class="mCM__item__link" title="">Акции</a>
+                </li>
+                <li class="mCM__item noBorder">
+                    <a href="#" class="mCM__item__link" title="">Акции</a>
+                </li>
+                <li class="mCM__item noBorder">
+                    <a href="#" class="mCM__item__link" title="">Акции</a>
+                </li>
+            </ul>
+        </div><!-- .headline__bar(end) -->
+
+        <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barSearch__ID">
+            <div class="headline__barSearch__cover">
+                <form name="head_search">
+                    <input type="submit" value="Найти" class="headSearch_inputGoGoGo button button__orange"
+                           title="Искать">
+                    <div class="headline__barSearch_cover">
+                        <input type="text" placeholder="Самокат?" name="query" value=""
+                               class="input__text headline__barSearch js__header__search__inputText" autocomplete="off">
+                    </div>
+                </form>
+            </div>
+            <div class="header__searchFastResult js__fastSearchResultsCover"></div>
+        </div><!-- .headline__bar(end) -->
+
+        <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barLogin__ID">
+            <div class="formLines js__formBox">
+
+                <form action="">
+
+                    <div class="formLine">
+                        <div class="formLine__content">
+                            <label class="input__textExtended">
+                                <span>E-mail:</span>
+
+                                <input type="text" class="input__text js__isMandatory" name="login" autofocus="">
+
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="formLine">
+                        <div class="formLine__content">
+                            <label class="input__textExtended">
+                                <span>Пароль:</span>
+
+                                <input type="password" class="input__text js__isMandatory" name="password"
+                                       autocomplete="new-password">
+
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="formLine">
+                        <a href="#" class="formLines__registerLink" title="Забыли пароль?">Забыли пароль?</a>
+
+                        <input class="button button__orange" type="submit" name="submit" value="Вход">
+                    </div>
+
+                    <div class="formLine">
+                        <span class="gray">Нет Личного кабинета?</span>
+
+                        <a href="/member/register.html" class="" title="Зарегистрироваться">Зарегистрируйтесь</a>
+                    </div>
+
+                    <div class="gridline">
+
+                        <div>
+                            <a href="" title="Закладки">
+                                    <span class="compass-ic compass-heart">
+
+                                    </span>Закладки <span class="gray js__bookmarksCount">0</span></span>
+                            </a>
+
+                        </div>
+
+                        <div>
+                            <a href="">
+                                    <span class="ic__set ic__set__viewed18x10">
+
+                                    </span>Вы смотрели</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div><!-- .headline__bar(end) -->
+
+        <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barCart__ID">
+            <div class="js__header__basketSticker">
+
+                <div class="header__basketInfo">
+                    <a href="#" title="Оформить заказ"
+                       class="floatRight button button__clearGray active js__header__basketLink">Оформить заказ</a>
+
+                    <span class="gray">Товаров:</span>
+
+                    <b class="js__count__cart">5</b>
+
+                    <br>
+
+                    <span class="gray">На сумму:</span>
+
+                    <b>133 744 ₽</b>
+                </div>
+
+                <div class="header__basketSticker">
+                    <h5 class="gray">У вас 1 корзина:</h5>
+
+                    <ul>
+                        <div class="basketSticker__item basketSticker__item__color0  active ">
+                            <a href="#">
+                                <span class="basketSticker__item__name">Основная</span>
+                                <span class="itemCount">5</span>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- .headline__bar(end) -->
+
+    </div>
+
+    <div id="scrollcontent_cover__ID">
+        <div id="scrollcontent__ID">
+            <div id="head">
+                <div class="catalogLine">
+                    <div class="catalogLine__catalogCover">
+                        <ul class="catalogLineMenu js__catalogLineMenu">
+                            <li class="cLM__item cLM__item__logo">
+                                <a href="./">
+                                    <img src="../assets/img/compass-logo.png" width="133" id="logo">
+                                </a>
+                            </li>
+                            <li class="cLM__item">
+                                <a href="/catalogue/" class="cLM__item__link js__catalogLine__mainLink"
+                                   title="Каталог товаров"><span>Каталог</span></a>
+                            </li>
+                            <li class="cLM__item cLM__item__orangeAction">
+                                <a href="#" class="cLM__item__link js__catalogLine__actionLink"
+                                   title="Скидки"><span>Скидки</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalogLine__panel js__catalogLine__panel">
+                        <ul class="mainCategoryMenu">
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mCM__item">
+                                <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                    <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                </a>
+
+                                <ul class="subCategoryMenu">
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны
+                                            и гаджеты </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты
+                                            и электрика</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и
+                                            Видео</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка
+                                            и элементы питания</a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные
+                                            сигареты, товары для курения </a>
+                                    </li>
+                                    <li class="sCM__item  active ">
+                                        <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры,
+                                            софт и развлечения</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content  noBreadcrumbPad ">
+
+                <div class="breadcrumbs">
+                    <div class="breadcrumbs__list">
+                        <a href="#" title="POCO">
+                            <span class="ic__set ic__set__back">&nbsp;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="k_centered">
+                    <h1>Смартфоны</h1>
+                    <div class="columnUpperBlock">
+                        <div class="columnUpperBlock-content">
+                            <div class="presetFilters">
+                                <div class="js__usualMinHeightItem noFog isWork">
+                                    <a href="#" class="modi-presetFilter">Redmi 12</a>
+                                    <a href="#" class="modi-presetFilter">Samsung Galaxy S22</a>
+                                    <a href="#" class="modi-presetFilter">Huawei P50</a>
+                                    <a href="#" class="modi-presetFilter">OnePlus 10</a>
+                                    <a href="#" class="modi-presetFilter">Google Pixel 7</a>
+                                    <a href="#" class="modi-presetFilter">Nokia 10</a>
+                                    <a href="#" class="modi-presetFilter">Sony Xperia 5 IV</a>
+                                    <a href="#" class="modi-presetFilter">LG G9 ThinQ</a>
+                                    <a href="#" class="modi-presetFilter">Motorola Moto G10</a>
+                                    <a href="#" class="modi-presetFilter">Asus Zenfone 9</a>
+                                    <a href="#" class="modi-presetFilter">Xiaomi Mi 12</a>
+                                    <a href="#" class="modi-presetFilter">Oppo Find X4</a>
+                                    <a href="#" class="modi-presetFilter">Vivo X70 Pro+</a>
+                                    <a href="#" class="modi-presetFilter">Realme GT 3</a>
+                                </div>
+
+                                <a href="#" data-showtext="Показать все" class="js__usualMinHeightLink usualMinHeightLink-withMarg  gray noIcon js__toggleElemStation"
+                                >Показать все </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columnUpperBlock">
+                        <div class="columnUpperBlock-content">
+                            <div class="presetFilters">
+                                <div class="js__usualMinHeightItem noFog isWork">
+                                    <a href="#" class="modi-presetFilter">DOOGEE</a>
+                                    <a class="modi-presetFilter" href="#">APPLE</a>
+                                    <a class="modi-presetFilter" href="#">SAMSUNG</a>
+                                    <a class="modi-presetFilter" href="#">HUAWEI</a>
+                                    <a class="modi-presetFilter" href="#">XIAOMI</a>
+                                    <a class="modi-presetFilter" href="#">OPPO</a>
+                                    <a class="modi-presetFilter" href="#">VIVO</a>
+                                    <a class="modi-presetFilter" href="#">ONEPLUS</a>
+                                    <a class="modi-presetFilter" href="#">REALME</a>
+                                    <a class="modi-presetFilter" href="#">LENOVO</a>
+                                    <a class="modi-presetFilter" href="#">ASUS</a>
+                                    <a class="modi-presetFilter" href="#">NOKIA</a>
+                                    <a class="modi-presetFilter" href="#">SONY</a>
+                                    <a class="modi-presetFilter" href="#">LG</a>
+                                    <a class="modi-presetFilter" href="#">MOTOROLA</a>
+                                    <a class="modi-presetFilter" href="#">GOOGLE</a>
+                                    <a class="modi-presetFilter" href="#">ZTE</a>
+                                    <a class="modi-presetFilter" href="#">MEIZU</a>
+                                    <a class="modi-presetFilter" href="#">TECNO</a>
+                                    <a class="modi-presetFilter" href="#">INFINIX</a>
+                                    <a class="modi-presetFilter" href="#">MICROMAX</a>
+                                    <a class="modi-presetFilter" href="#">ALCATEL</a>
+                                    <a class="modi-presetFilter" href="#">PANASONIC</a>
+                                    <a class="modi-presetFilter" href="#">PHILIPS</a>
+                                    <a class="modi-presetFilter" href="#">BLACKBERRY</a>
+                                    <a class="modi-presetFilter" href="#">HTC</a>
+                                </div>
+
+                                <a href="#" data-showtext="Показать все бренды" class="js__usualMinHeightLink usualMinHeightLink-withMarg  gray noIcon js__toggleElemStation"
+                                >Показать все бренды</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="line-filter goods-line-filters noBorder">
+                            <div class="line-filter-halfCell">
+                                <a href="#" class="button button__gray fullWidth">
+                                    <b class="ic__hasSet ic__hasSet__filterDot">Фильтры</b>
+                                </a>
+                            </div>
+
+                            <div class="line-filter-halfCell floatRight  line-filterShareButton-cover">
+                                <label>
+                                    <select class="ot-customSelector">
+                                        <option>сначала популярные</option>
+                                        <option>сначала новые</option>
+                                        <option>по возрастанию цены</option>
+                                        <option>по убыванию цены</option>
+                                        <option>по рейтингу</option>
+                                        <option>по количеству отзывов</option>
+                                    </select>
+                                </label>
+                            </div>
+
+                            <div class="catalogList-spoiledItem">
+                                <div class="js-spoiledBox-content">
+                                    <form action="">
+                                        <div class="columnBlock">
+                                            <div class="columnBlock-filters-firstLine">
+                                                <a href="/catalogue/blendery-c75/" title="Сбросить фильтры" class="gray js__filterResult__clear">Сбросить фильтры</a>
+                                            </div>
+                                            <div class="filterResult-sticker">
+                                                <div class="filterResult-sticker-message">
+                                                    <a href="#">
+                                                        Найдено товаров:
+                                                        <span id="js-filterResultSticker-numsID">0</span><br>
+                                                        <span class="orange">Показать</span>
+                                                    </a>
+                                                </div>
+
+                                                <span class="proceed"></span>
+                                            </div>
+
+                                            <div class="columnBlock-spoiledContent">
+                                                <div class="columnBlock-spoiledContent-name js-columnBlock-spoiledContent-name">Наличие</div>
+
+                                                <div class="columnBlock-spoiledContent-paddedContent">
+                                                    <div class="spoiledLst-cover">
+                                                        <ul class="ot-customCheckbox">
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="2">прямо сейчас
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="120">прямо сейчас
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap"  data-quantity-on-site="213">прямо сейчас
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="columnBlock-spoiledContent">
+                                                <div class="columnBlock-spoiledContent-name js-columnBlock-spoiledContent-name">Наличие</div>
+
+                                                <div class="columnBlock-spoiledContent-paddedContent">
+                                                    <div class="spoiledLst-cover">
+                                                        <ul class="ot-customCheckbox">
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="666">прямо сейчас
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="455">прямо сейчас
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="188">прямо сейчас
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="columnBlock-spoiledContent noSpoiler">
+                                                <div class="columnBlock-spoiledContent-paddedContent">
+                                                    <div class="spoiledLst-cover">
+                                                        <ul class="ot-customCheckbox">
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="666">Игровой мониор
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="columnBlock-spoiledContent noSpoiler">
+                                                <div class="columnBlock-spoiledContent-paddedContent">
+                                                    <div class="spoiledLst-cover">
+                                                        <ul class="ot-customCheckbox">
+                                                            <li class="">
+
+                                                                <input type="checkbox" class="filterTrackEvent">
+
+                                                                <label class="checkbox-ot-selector">
+                                                                    <span class="checkbox"></span>
+
+                                                                    <span class="firstLetterCap" data-quantity-on-site="666">Изогнутый  монитор
+                                                                        <span class="itemCount"></span>
+                                                                    </span>
+                                                                </label>
+                                                                
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="columnBlock-paddedContent filters-lastLine">
+                                                <a href="#" class="gray">Сбросить</a>
+                                                <a href="#"class="button button-blue">Подобрать</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="content-itemsLoadingCover">
+                        <div class="multicart-items mobilelisting">
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id=" ">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multicart-item">
+                                <div class="multicart-item-image">
+                                    <div class="marks">
+                                        <span class="mark mark-discount">-35%</span> <span class="mark mark-action">акция</span>
+                                    </div>
+                                    <a href="#">
+                                        <img src="https://static.onlinetrade.ru/img/items/s/2223336_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="multicart-item-description">
+                                    <div class="descriptionLine">
+                                        <div class="indexGoods-item-stars">
+                                            <a href="#">
+                                                <div class="starsSVG stars5" title="5 звезд по 5 оценкам">
+                                                    <span></span>
+                                                </div>5
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="descriptionLine">
+                                        <a href="#" class="multicart-item-name">POCO С40 4/64GB Черный</a>
+                                    </div>
+                                    <div class="indexGoods-item-selectModification">
+                                        <div class="modelModeSelector_cover ">
+                                            <select name="" id="">
+                                                <option value="3761388">64 Гб, зеленый</option>
+                                                <option value="3766373" selected="selected">64 Гб, синий</option>
+                                                <option value="3761382">64 Гб, черный</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="multicart-item-priceline">
+                                        <div class="descriptionLine">
+                                            <div>
+                                                <s class="priceOld">
+                                                    <span class="gray">9 990 ₽</span>
+                                                </s>
+                                                <span class="price">8 490 ₽</span>
+                                            </div>
+                                        </div>
+                                        <span>
+                                            <span class="gray">ON-бонусов:</span> 127 ₽
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="multicart-item-manage">
+                                    <div class="multicart-item-manageButton">
+                                        <a href="#" class="button button-orange">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="goods-itemsNavigations">
+                            <a href="#" class="button button__gray fullWidth" id="showMoreBtn">Показать ещё</a>
+                        </div>
+                    </div>
+
+                    <div class="clear">&nbsp;</div>
+
+                </div>
+
+            </div>
+
+            <div class="clear" style="clear: both;"></div>
+        </div>
+
+
+        <div id="footer">
+            <div class="footer__infoline">
+                <div class="k_centered">
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__linksline">
+                <div class="k_centered">
+                    <div class="footer__linksline__logo">
+                        <a href="index.html" class="footer__logo">
+                            <img src="../assets/img/logo-dark.png" width="150" class="footer__logo__image"></a>
+                    </div>
+                    <div class="footer__linksline__contacts">
+                        <div class="footer__linksline__smo">
+                            <a href="#" title="Telegram"
+                               class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                            <a href="#" title="Telegram"
+                               class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                            <a href="#" title="Telegram"
+                               class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__linksline__links">
+                        <ul class="footer__links__column">
+                            <li><h5>Compass</h5></li>
+                            <li><a href="/info/about.html" title="О компании">О компании</a></li>
+                            <li><a href="/info/vacancy.html" title="Вакансии">Вакансии</a></li>
+                            <li><a href="http://ontrade.ru/" title="Дилерам">Дилерам</a></li>
+                            <li><a href="/info/press_releases.html" title="Для прессы">Для прессы</a></li>
+                            <li><a href="/news/" title="Новости">Новости</a></li>
+                        </ul>
+
+                        <ul class="footer__links__column">
+                            <li><h5>Интернет-магазин</h5></li>
+                            <li><a href="/catalogue/" title="Каталог товаров">Каталог товаров</a></li>
+                            <li><a href="#" title="Пункты выдачи">Пункты выдачи</a></li>
+                            <li><a href="/club/" title="Клуб ON-бонус">Клуб ON-бонус</a></li>
+                            <li><a href="/info/garantii.html" title="Гарантийное обслуживание">Гарантийное
+                                обслуживание</a></li>
+                            <li><a href="/info/payment.html" title="Оплата заказа">Оплата заказа</a></li>
+                        </ul>
+
+                        <ul class="footer__links__column">
+                            <li><h5>Услуги</h5></li>
+                            <li><a href="/info/delivery.html" title="Доставка">Доставка</a></li>
+                            <li><a href="/info/selftake.html" title="Самовывоз">Самовывоз</a></li>
+                            <li><a href="/info/service_centre.html" title="Сервисный центр">Сервис-центр</a></li>
+                        </ul>
+
+                        <ul class="footer__links__column">
+                            <li><h5>Услуги</h5></li>
+                            <a href="/info/privacy_policy.html" class="gray"
+                               title="Политика конфиденциальности Compass">Политика конфиденциальности</a>
+                            <li style="margin-top: 8px;"><a href="https://www.onlinetrade.ru/" class="gray"
+                                                            rel="nofollow" title="Полная версия сайта">Полная версия</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__countersline">
+                        <div class="k_centered">
+                            <div class="footer__countersline__middle">
+                                <span class="footer__copyright">©
+                                    <a href="https://m.onlinetrade.ru" title="На главную страницу">Onlinetrade.ru</a>
+                                    <span class="nowrap">1998–2023</span>
+                                </span>
+
+                                <img src="../assets/img/banks.png" height="27" alt="принимаем к оплате">
+                            </div>
+
+                            <div class="footer__countersline__market">
+                                <div class="siteAgeRate">16+</div>
+                            </div>
+
+                            <div class="footer__countersline__smo">
+                                Цены и условия действительны до:
+
+                                <span class="nowrap">02.08.2023 11:35</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="#" class="totop-btn">
+
+        </a>
+
+    </div>
+
+</div><!-- #main (end) -->
+
+
+<script src="../assets/plugins/jquery/jq-1.11.1.js"></script>
+<script src="../assets/plugins/swiper.js/swiper-bundle.min.js"></script>
+
+<script src="js/script.js/script.js"></script>
+<script>
+    $(window).on('scroll', function() {
+
+        let lineFilter = $('.line-filter');
+        let topOfElement = lineFilter.offset().top; // Calculate the top position of the line filter element
+        let bottomOfElement = lineFilter.offset().top + lineFilter.outerHeight();// Calculate the bottom position of the line filter element
+        let bottomOfScreen = $(window).scrollTop() + $(window).innerHeight();// Calculate the bottom position of the screen
+        let topOfScreen = $(window).scrollTop();// Calculate the top position of the screen
+
+        if ((bottomOfElement > topOfScreen) && (topOfElement < bottomOfScreen)){
+        } else if (topOfScreen > topOfElement + 1200) {// the screen is more than 1500 pixels hide element
+            $('.filterResult-sticker').fadeOut(); // hide filterResult-sticker
+        }
+    });
+</script>
+
+</body>
+</html>

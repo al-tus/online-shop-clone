@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.32 156.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 13px;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <path class="cls-1" d="m6.5,21.19s1.28-14.68,14.43-14.68h88.34s14.55-.94,14.55,14.94v112.72s-5.43,15.38-17.23,15.38H20.84s-14.34-3.94-14.34-14.62V21.19Z"/>
+    <ellipse class="cls-2" cx="41.82" cy="40.5" rx="11.96" ry="6.71"/>
+    <circle class="cls-2" cx="73.56" cy="40.5" r="6.77"/>
+    <circle class="cls-2" cx="92.12" cy="40.5" r="6.77"/>
+    <circle class="cls-1" cx="65.16" cy="92.01" r="26.51"/>
+    <path class="cls-1" d="m92.35,92.01l-15.7,6.94s-11.43-4.24-16.49-9.06-18.63,3.32-18.63,3.32"/>
+  </g>
+</svg>

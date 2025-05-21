@@ -1,0 +1,795 @@
+.thirdWidth {
+    width: 33.3%;
+}
+
+.basket__noLogin .thirdWidth {
+    width: 30%;
+}
+
+.formLines {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input__text:focus {
+    outline: 0;
+    border-color: #666;
+}
+
+.formLine__content .input__text, .formLine__content select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formLine, .formLine__section {
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.formLine {
+    margin: 0 0 22px;
+}
+
+.formLine__label {
+    display: block;
+    padding: 0 0 13px;
+    float: left;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.formLine__content {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.formLine .width320 {
+    max-width: 650px;
+}
+
+
+.cp-icon-open-eye{
+    background-image: url(../img/open-eye.png);
+    transition: .2s;
+}
+
+.cp-icon-open-eye::before{
+    content: '';
+    width: 2px;
+    height: 25px;
+    display: inline-block;
+    background-color: #7e7e7e;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 13px;
+    top: 1px;
+    transition: .2s;
+}
+
+.cp-icon-open-eye.pass-show::before{
+    height: 0;
+    right: 0;
+    transition: .2s;
+}
+
+.cp-icon-open-eye.grey{
+    background-image: url(../img/open-eye\(grey\).png);
+}
+
+
+
+.importantmarkCover{
+    position: relative;
+}
+
+.importantmarkCover .cp-icon{
+    display: inline-block;
+    height: 27px;
+    background-size: 100%;
+    width: 27px!important;
+    position: absolute;
+    right: 10px;
+    z-index: 10;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.formLine__content .button {
+    margin-right: 30px;
+}   
+
+.formLines__restorePassLink {
+    color: #9d9d9d;
+}
+
+.formLines__restorePassLink:hover {
+    color: #5498ed;
+}
+
+.twoThirdWidth {
+    width: 66%;
+}
+
+.basket__noLogin .twoThirdWidth {
+    width: 66%;
+}
+
+.basket__noLogin .twoThirdWidth .asH1 {
+    margin-bottom: 29px;
+}
+
+p a {
+    color: #ff7800;
+}
+
+.basket-header{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.basket-header h1{
+    margin-bottom: 0;
+}
+
+
+.basket-header:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #efefef;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.basket-header span{
+    font-size: 18px;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.basket__items {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.basket__items__manageLine {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 0 28px;
+}
+
+.basket__items .basket__items__manageLine:first-child {
+    margin-bottom: 20px;
+}
+
+.basket__items__manageRightPanel {
+    float: right;
+}
+
+.modal{
+    position: fixed;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    height: 100%;
+    background-color: #00000061;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal-shadow{
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    background-color: #00000061;
+}
+
+.modal .modal-window{
+    background-color: #fff;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 3px;
+    position: relative; 
+    z-index: 9999;
+}
+
+
+.modal-header{
+    padding: 26px 60px 23px 40px
+}
+
+.modal-header h3 {
+    color: #000;
+    font-size: 1.857em;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+.modal-message {
+    padding: 0 40px 40px;
+}
+
+.modal-message .button {
+    margin-right: 18px;
+}
+
+.close-modal:after, .close-modal:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/ic__set_v4.png) -175px -200px no-repeat;
+    transition: opacity 400ms;
+}
+
+
+.close-modal:after {
+    opacity: 0;
+}
+
+.close-modal:before {
+    background-position: -175px 0;
+    opacity: 1;
+}
+
+.close-modal {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.close-modal:hover::after{
+    opacity: 1;
+}
+
+p {
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.backet__items__manageLeftPanel {
+    float: left;
+}
+
+.button.mini {
+    padding: 6px 8px 6px 9px;
+    font-size: .875em;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.editableTable {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.basket-table {
+    margin-bottom: 22px;
+}
+
+.editableTable td, .editableTable th {
+    border-bottom: 2px solid #efefef;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.editableTable th {
+    text-align: left;
+    color: #999;
+    font-weight: 400;
+    padding: 0 0 18px;
+}
+
+.basket-table .cart__infoTable__checkboxCell, .basket-table.simple .cart__infoTable__checkboxCell {
+    padding-bottom: 5px;
+}
+.basket-table td{
+    padding-top: 23px;  
+}
+
+.basketPositionNumber {
+    position: relative;
+    padding-right: 5px;
+}
+
+.cart__infoTable__checkboxCell .basketPositionNumber {
+    top: 0;
+}
+
+.basket-item-image {
+    text-align: center;
+    width: 200px;
+}
+
+.basket-item-image img {
+    max-width: 135px;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.editableList__itemlabel :last-child, .editableTable td :last-child {
+    margin-bottom: 0;
+}
+
+.editableTable td {
+    padding: 18px 0;
+    padding-right: 0;
+}
+
+.descriptionLine {
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+
+.basket-item-description .descriptionLine {
+    margin-bottom: 8px;
+}
+
+.descriptionLine__item {
+    margin-right: 25px;
+}
+
+.basket-item-description .ic__set__bookmark {
+    position: absolute;
+    margin-top: 2px;
+}
+
+.ic__set__bookmark {
+    background-position: -75px 0;
+    width: 21px;
+    height: 21px;
+}
+
+.ic__set__bookmark.active:hover, .ic__set__bookmark:hover {
+    background-position: -75px -200px;
+}
+
+.catalog__displayedItem__numsToBuy {
+    padding: 0;
+    line-height: 1;
+    background: #f7f7f7;
+    background-color: #fff;
+    height: 36px;
+    float: left;
+    margin: 0 15px 15px 0;
+    position: relative;
+    border: 2px solid #efefef;
+    border-radius: 3px;
+}
+
+.multicart__item .catalog__displayedItem__numsToBuy {
+    margin-bottom: 5px;
+    width: 90px;
+}
+
+.catalog__displayedItem__numsToBuy a {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.catalog__displayedItem__numsToBuy input {
+    display: block;
+    float: left;
+    width: 38px;
+    padding: 0;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    border: 0;
+    background: #f7f7f7;
+    background-color: #fff;
+    outline: 0;
+}
+
+.catalog__displayedItem__numsToBuy .bubbleOpenLink {
+    display: block;
+    height: 100%;
+}
+
+.catalog__displayedItem__numsToBuy a {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.numsToBuy__minus:before, .numsToBuy__plus:before {
+    display: block;
+    width: 15px;
+    height: 100%;
+    background: 0 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.6em;
+    color: #ff7800;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.numsToBuy__minus:before {
+    content: "–";
+    right: 0;
+}
+
+.basket-item-countCover .numsToBuy__minus:before, .basket-item-countCover .numsToBuy__plus:before {
+    color: #d6d6d8;
+}
+
+
+.numsToBuy__plus:before {
+    content: "+";
+    left: 0;
+}
+
+.numsToBuy__minus:hover:before, .numsToBuy__plus:hover:before {
+    color: #ff7800;
+}
+
+.input__text.minCount{
+    color: red;
+    font-weight: 700;
+}
+
+.alert-card{   
+    background-color: #1c2c34;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    position: fixed;
+    right: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+    transition: .2s;
+    z-index: 9999;
+}
+
+.alert-card.show{   
+    transform: translate(-50%, 100%);
+}
+
+.oh{
+    overflow: hidden;
+}
+
+.multicart__item__pricePerOne {
+    padding-top: 9px;
+    text-align: center;
+    width: 90px;
+    font-size: .89em;
+    clear: both;
+}
+
+.basket-item-manage {
+    text-align: right;
+}
+
+.ic__set__close, .ic__set__closeThick {
+    background-position: -175px 0;
+}
+
+.ic__hasSet__close:hover:before, .ic__hasSet__closeBlue:hover:before, .ic__set__close:hover, .ic__set__closeBlue:hover, .ic__set__closeThick:hover, .ic__set__closeThickBlue:hover {
+    background-position: -175px -200px;
+}
+
+.multicart__items__results {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+    border-bottom: 2px solid #efefef;
+    border-top: 2px solid #efefef;
+    padding: 20px 0;
+}
+.multicart__items__resultsLine {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.size18 {
+    font-size: 1.29em;
+}
+
+.multicart__items__resultsLine__value {
+    float: right;
+    width: 370px;
+    position: relative;
+}
+
+.multicart__items__resultsLine__label {
+    margin: 0 380px 0 270px;
+    position: relative;
+}
+
+.multicart__items__resultsLine .multicart__items__resultsLine__label.size18:before, .multicart__items__resultsLine.size18 .multicart__items__resultsLine__label:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    border-bottom: 2px dotted #efefef;
+}
+
+.multicart__items__resultsLine .multicart__items__resultsLine__label.size18 span, .multicart__items__resultsLine.size18 .multicart__items__resultsLine__label span {
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px 0 0;
+    position: relative;
+    top: 0;
+}
+
+.multicart__bonuses, .multicart__certificate, .multicart__promocode {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.multicart__certificate {
+    display: none;
+    background-color: #f5f5f5;
+}
+
+.multicart__items__resultsLine__label {
+    margin: 0 380px 0 270px;
+    position: relative;
+}
+
+.formLine__inlineContent .formLine__content label {
+    margin-right: 5px;
+}
+
+.importantmarkCover {
+    position: relative;
+}
+
+.formLine__inlineContent .formLine__content .importantmarkCover {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.multicart__items__resultsLine .formLine__inlineContent .formLine__content .importantmarkCover {
+    margin-right: 20px;
+    width: auto;
+}
+
+.formLine__inlineContent .formLine__content label {
+    margin-right: 5px;
+}
+
+.formLine__inlineContent .formLine__content .input__text {
+    width: 510px;
+}
+
+.formLine__content .button {
+    margin-right: 30px;
+}
+
+.multicart__items__resultsLine :last-child {
+    margin-bottom: 0;
+}
+
+.multicart__certificate__link {
+    position: absolute;
+    top: -3px;
+    right: 0;
+}
+
+.medium {
+    font-weight: 500!important;
+}
+
+.note {
+    position: relative;
+    padding: 20px 25px;
+    margin: 0 0 21px;
+    color: #000;
+    background-color: #f5f5f5;
+    display: block;
+    border-radius: 3px;
+    word-break: break-word;
+}
+
+.note__gray {
+    background-color: #f5f5f5;
+}
+
+.regNotice {
+    clear: both;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.multicart__items__results .regNotice {
+    margin: 20px 0 10px;
+}
+
+.note div:last-child, .note p:last-child, .note table:last-child, .note ul:last-child {
+    margin-bottom: 0;
+}
+
+.multicart__orderoption {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0;
+    overflow-anchor: none;
+}   
+
+.multicart__orderoption__item {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 0 40px;
+}
+
+.basket_delivery .editableTable{
+    margin-bottom: 15px;
+}
+
+.radio-compass-custom{
+    display: none;
+}
+
+.radio-compass-custom-label{
+    width:20px;
+    height: 20px;
+    display: block;
+    border: 2px solid #e8e8e8;
+    border-radius: 50%;
+    position: relative;
+    transition: .2s;
+}
+
+.radio-compass-custom-label::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.radio-compass-custom:checked ~ .radio-compass-custom-label{
+    background-color: #ff7800;
+    border-color: #ff7800;
+}
+
+.radio-compass-custom:checked ~ .radio-compass-custom-label::before{
+    transform: translate(-50%, -50%) scale(.4) ;
+}
+
+.multicart__nextStepMessage .button__orange {
+    padding: 13px 40px;
+}
+
+.multicart__orderoption__item {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 0 40px;
+}
+
+.formLines__registerLink {
+    float: right;
+    margin: 13px 0 0;
+}
+
+.formLine__section>.formLine:last-child, .formLines>.formLine:last-child, form>.formLine:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#login-massage .formLines .formLine:last-child {
+    padding-top: 10px;
+}
+
+.checkbox-compass-custom{
+    display: none;
+}
+.checkbox-compass-custom-label{
+    width: 20px;
+    height: 20px;
+    border: #e8e8e8 2px solid;
+    border-radius: 3px;
+    display: block;
+    transition: .2s;
+    position: relative;
+}
+
+.checkbox-compass-custom-label::before{
+    content: '';
+    left: 50%; top: 50%; transform: translate(-50%, -50%);
+    width: 0px;
+    position: absolute;
+    height: 15px;
+    background: url(../img/compass-icons/check.svg);
+    background-size: 15px;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+
+.checkbox-compass-custom:checked ~ .checkbox-compass-custom-label{
+    background-color: #ff7800;
+    border-color: #ff7800;
+}
+
+.checkbox-compass-custom:checked ~ .checkbox-compass-custom-label::before{
+    width: 15px;
+
+}
+
+.d-flex span{ 
+    margin-left: 10px;
+}
+.align-content-center{
+    align-items: center;
+}
+
+.d-flex{
+    display: flex!important;
+}
+
+.modal-message .formLines {
+    margin-bottom: 0;
+}
+

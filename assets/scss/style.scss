@@ -1,0 +1,364 @@
+body{
+    color: #fff;
+}
+*{
+    box-sizing: content-box;
+}
+
+
+input[type="submit" i] {
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #fff;
+    padding: 28px 0 20px;
+}
+
+.k_centered {
+    min-width: 700px;
+    max-width: 1602px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 25px;
+}
+
+.header__cover {
+    padding: 28px 0 20px;
+    width: 100%
+}
+
+.header {
+    display: table;
+    vertical-align: top;
+    width: 100%;
+    table-layout: auto
+}
+
+.header__logo {
+    float: left;
+    width: 214px;
+    display: table-cell;
+    vertical-align: top
+}
+
+.logo__link {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: -1px
+}
+
+.logo__link.notIndexPage:before {
+    content: "";
+    display: block;
+    width: 175px;
+    background: url(/templates/desktop/images/logo__hoverBack.png?39) 0 0 no-repeat;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    opacity: 0;
+    top: -60px;
+    transition: opacity 300ms
+}
+
+.logo__link.notIndexPage:hover:before {
+    opacity: 1;
+    top: 0;
+    transition: opacity 300ms
+}
+
+.header__logo img {
+    max-width: 100%;
+    width: 186px;
+    max-height: 58px;
+    height: auto;
+    z-index: 1;
+    position: relative
+}
+
+.header__menu {
+    display: table-cell;
+    vertical-align: top;
+    padding: 17px 0 0;
+    width: 40px
+}
+
+.header__cityAndSearchCover {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+    height: 60px
+}
+
+.header__cityAndSearch {
+    display: table;
+    vertical-align: top;
+    width: 100%
+}
+
+.header__citySelect {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 22px;
+    white-space: nowrap;
+    width: 1px
+}
+
+.header__citySelectLink {
+    color: #0053b9;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+    margin-right: 40px
+}
+
+.header__catalogActionsButtons {
+    display: table-cell;
+    vertical-align: top;
+    padding: 4px 29px 0 0;
+    white-space: nowrap;
+    width: 1px
+}
+
+.header__button,.header__button span {
+    display: inline-block;
+    position: relative;
+    color: #fff
+}
+
+.header__button {
+    background: #328ad2;
+    text-align: center;
+    margin: 0;
+    z-index: 30;
+    border-radius: 3px;
+    padding-left: 60px;
+    padding-right: 30px
+}
+
+.header__button span {
+    font-size: 1em;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px
+}
+
+.header__button.active,.header__button:hover {
+    background: #5498ed;
+    color: #fff
+}
+
+.header__button .header__menuLink__icon,.header__button .ic__hasSet {
+    position: absolute;
+    display: block;
+    top: 16px;
+    left: 30px;
+    width: 20px;
+    height: 10px;
+    padding: 0
+}
+
+.header__catalogActionsButtons .header__menuLink__icon {
+    width: 12px;
+    height: 10px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition-duration: 400ms
+}
+
+.header__catalogActionsButtons .header__menuLink__icon:after,.header__catalogActionsButtons .header__menuLink__icon:before {
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    transition-duration: 400ms;
+    background-image: none
+}
+
+.header__catalogActionsButtons .header__menuLink__icon:after {
+    width: 16px;
+    top: -2px
+}
+
+.header__buttonActions {
+    background-color: #ff7800;
+    margin-left: 10px
+}
+
+.header__buttonActions.active,.header__buttonActions:hover {
+    background-color: #ff9434
+}
+
+.header__buttonActions .ic__hasSet__actionWhite:before {
+    top: -6px;
+    left: -3px
+}
+
+.header__buttonCatalog.active .header__menuLink__icon {
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+    border-bottom-color: transparent;
+    width: 20px;
+    top: 15px;
+    transition-duration: 400ms
+}
+
+.header__buttonCatalog.active .header__menuLink__icon:before {
+    transform: rotate(-90deg);
+    top: -2px;
+    transition-duration: 400ms
+}
+
+.header__buttonCatalog.active .header__menuLink__icon:after {
+    opacity: 0;
+    transition-duration: 400ms
+}
+
+.header__search {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    padding: 4px 0 0
+}
+
+.header__searchCover {
+    border: 2px solid #e8e8e8;
+    height: 42px;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px
+}
+
+.header__search__inputGogogo {
+    float: right;
+    width: 44px;
+    height: 42px;
+    border: 11px solid #fff;
+    cursor: pointer;
+    background: #fff url(../img/ic__set_v4.png) -100px 0 no-repeat;
+    padding: 0
+}
+
+.header__search__inputTextCover {
+    position: relative;
+    padding: 0 0 0 10px;
+    margin: 0 53px 0 10px
+}
+
+.header__search__inputText {
+    width: 98%;
+    border: 1px solid transparent;
+    background-color: #fff;
+    height: 18px;
+    line-height: 1;
+    padding: 11px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    outline: 0;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 0;
+    color: #000
+}
+
+.header__search__inputText:focus {
+    outline: 0
+}
+
+.header__searchCover.active {
+    height: auto;
+    box-shadow: 0 0 50px #ccc;
+    border-color: #fff;
+    z-index: 30
+}
+
+.ic__set__member {
+    background-position: -225px 0;
+    width: 18px;
+    height: 21px;
+}
+
+.ic__set {
+    display: inline-block;
+    position: relative;
+    background-image: url(../img/ic__set_v4.png);
+}
+
+
+
+.header__userAndBasket {
+    display: table-cell;
+    height: 60px;
+    vertical-align: top;
+    padding: 4px 0 0 30px;
+    white-space: nowrap;
+  }
+  
+  .huab__cell__member {
+    margin-left: 0;
+    border-radius: 3px;
+  }
+  
+  .huab__cell {
+    display: inline-block;
+    position: relative;
+    height: 46px;
+    min-width: 18px;
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  .huab__cell__icon {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    vertical-align: top;
+    margin: 0 7px 0 0;
+  }
+  
+  .huab__cell__member{
+      margin-left: 0;
+      border-radius: 3px;
+      .huab__cell__link {
+        min-width: 28px;
+        z-index: 25;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+      } 
+    .huab__cell__icon {
+        margin: 0;
+    }
+  } 
+  
+  .huab__cell__link {
+    display: block;
+    height: 100%;
+    padding: 0 15px;
+    vertical-align: top;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+  }
+  
+  .huab__cell__member .huab__cell__icon .ic__set__member, .huab__cell__onbonus .huab__cell__icon .ic__set__onbonusWhite {
+    margin-top: -1px;
+  }
+  
+  .huab__cell__icon .ic__set {
+    height: 25px;
+  }
+  
+  .huab__cell__icon .ic__set, .huab__cell__text {
+    display: inline-block;
+    position: relative;
+    top: 14px;
+  }

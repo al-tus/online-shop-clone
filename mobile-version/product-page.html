@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/plugins/swiper.js/swiper-style.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+
+    <div id="main">
+
+        <div class="header__cover">
+
+            <div class="header">
+
+                        <a class="header__icons header__icons__home" href="index.html">
+
+                            <div class="header__icon">&nbsp;</div>
+                        </a><!-- .header__icons (end)-->
+
+                        <a class="header__icons header__icons__menu js__headline__menuLink" data-barid="headline__barMenu__ID" href="#">
+
+                            <div class="header__icon">&nbsp;</div>
+                        </a><!-- .header__icons (end)-->
+
+                        <a class="header__icons header__icons__search js__headline__menuLink" href="#" data-barid="headline__barSearch__ID">
+
+                            <div class="header__icon">&nbsp;</div>
+                        </a><!-- .header__icons (end)-->
+
+                        <a class="header__icons header__icons__member js__headline__menuLink" href="#" data-barid="headline__barLogin__ID">
+
+                            <div class="header__icon">&nbsp;</div>
+                        </a><!-- .header__icons (end)-->
+
+                        <a class="header__icons header__icons__cart js__headline__menuLink js__header__basketCover" href="#" data-barid="headline__barCart__ID">
+
+                            <div class="header__icon header__iconColor0">
+                                <span class="itemCount">5</span>
+                            </div>
+
+                        </a><!-- .header__icons (end)-->
+
+
+
+            </div><!-- .header (end)-->
+
+        </div><!-- .header__cover (end)-->
+
+        <div id="bars_cover__ID">
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barSearch__ID">
+                <div class="headline__barSearch__cover">
+                    <form name="head_search">
+                        <input type="submit" value="Найти" class="headSearch_inputGoGoGo button button__orange" title="Искать">
+                        <div class="headline__barSearch_cover">
+                            <input type="text" placeholder="Самокат?" name="query" value="" class="input__text headline__barSearch js__header__search__inputText" autocomplete="off">
+                        </div>
+                    </form>
+                </div>
+                <div class="header__searchFastResult js__fastSearchResultsCover"></div>
+            </div><!-- .headline__bar(end) -->
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barLogin__ID">
+                <div class="formLines js__formBox">
+
+                    <form action="">
+
+                        <div class="formLine">
+                            <div class="formLine__content">
+                                <label class="input__textExtended">
+                                    <span>E-mail:</span>
+
+                                    <input type="text" class="input__text js__isMandatory" name="login" autofocus="">
+
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="formLine">
+                            <div class="formLine__content">
+                                <label class="input__textExtended">
+                                    <span>Пароль:</span>
+
+                                    <input type="password" class="input__text js__isMandatory" name="password" autocomplete="new-password">
+
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="formLine">
+                            <a href="#" class="formLines__registerLink" title="Забыли пароль?">Забыли пароль?</a>
+
+                            <input class="button button__orange" type="submit" name="submit" value="Вход">
+                        </div>
+
+                        <div class="formLine">
+                            <span class="gray">Нет Личного кабинета?</span>
+
+                            <a href="/member/register.html" class="" title="Зарегистрироваться">Зарегистрируйтесь</a>
+                        </div>
+
+                        <div class="gridline">
+
+                            <div>
+                                <a href="" title="Закладки">
+                                    <span class="compass-ic compass-heart">
+
+                                    </span>Закладки <span class="gray js__bookmarksCount">0</span></span>
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <a href="">
+                                    <span class="ic__set ic__set__viewed18x10">
+
+                                    </span>Вы смотрели</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div><!-- .headline__bar(end) -->
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barMenu__ID">
+                <ul class="mainMenu">
+                    <li class="mCM__item">
+                        <a href="#" class="mCM__item__link mCM__item__linkArrowed catalogueLink" title="Каталог товаров">Каталог товаров </a>
+                    </li>
+                    <li class="mCM__item">
+                        <a href="#" class="mCM__item__link mCM__item__linkArrowed js_mCM_toggler" title="Как купить">Как купить</a>
+
+                        <ul class="subCategoryMenu">
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                            <li class="sCM__item">
+                                <a href="#" title="Доставка" class="sCM__item__link ">Доставка</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="Акции" style="padding-top: 13px">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                    <li class="mCM__item noBorder">
+                        <a href="#" class="mCM__item__link" title="">Акции</a>
+                    </li>
+                </ul>
+            </div><!-- .headline__bar(end) -->
+
+            <div class="headline__bar js__headline__bar js__header__searchCover" id="headline__barCart__ID">
+                <div class="js__header__basketSticker">
+
+                    <div class="header__basketInfo">
+                        <a href="#" title="Оформить заказ" class="floatRight button button__clearGray active js__header__basketLink">Оформить заказ</a>
+
+                        <span class="gray">Товаров:</span>
+
+                        <b class="js__count__cart">5</b>
+
+                        <br>
+
+                        <span class="gray">На сумму:</span>
+
+                        <b>133 744 ₽</b>
+                    </div>
+
+                    <div class="header__basketSticker">
+                        <h5 class="gray">У вас 1 корзина:</h5>
+
+                        <ul>
+                            <div class="basketSticker__item basketSticker__item__color0  active ">
+                                <a href="#">
+                                    <span class="basketSticker__item__name">Основная</span>
+                                    <span class="itemCount">5</span>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- .headline__bar(end) -->
+        </div>
+
+        <div id="scrollcontent_cover__ID">
+            <div id="scrollcontent__ID">
+                <div id="head">
+                    <div class="catalogLine">
+                        <div class="catalogLine__catalogCover">
+                            <ul class="catalogLineMenu js__catalogLineMenu">
+                                <li class="cLM__item cLM__item__logo">
+                                    <a href="./">
+                                        <img src=" ../assets/img/compass-logo.png" width="133" id="logo">
+                                    </a>
+                                </li>
+                                <li class="cLM__item">
+                                    <a href="/catalogue/" class="cLM__item__link js__catalogLine__mainLink" title="Каталог товаров"><span>Каталог</span></a>
+                                </li>
+                                <li class="cLM__item cLM__item__orangeAction">
+                                    <a href="#" class="cLM__item__link js__catalogLine__actionLink" title="Скидки"><span>Скидки</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="catalogLine__panel js__catalogLine__panel">
+                            <ul class="mainCategoryMenu">
+                                <li class="mCM__item">
+                                    <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                        <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                    </a>
+
+                                        <ul class="subCategoryMenu">
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны и гаджеты </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты и электрика</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и Видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные сигареты, товары для курения </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры, софт и развлечения</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li class="mCM__item">
+                                    <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                        <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                    </a>
+
+                                        <ul class="subCategoryMenu">
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны и гаджеты </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты и электрика</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и Видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные сигареты, товары для курения </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры, софт и развлечения</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li class="mCM__item">
+                                    <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                        <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                    </a>
+
+                                        <ul class="subCategoryMenu">
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны и гаджеты </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты и электрика</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и Видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные сигареты, товары для курения </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры, софт и развлечения</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li class="mCM__item">
+                                    <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                        <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                    </a>
+
+                                        <ul class="subCategoryMenu">
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны и гаджеты </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты и электрика</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и Видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные сигареты, товары для курения </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры, софт и развлечения</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li class="mCM__item">
+                                    <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                        <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                    </a>
+
+                                        <ul class="subCategoryMenu">
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны и гаджеты </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты и электрика</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и Видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные сигареты, товары для курения </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры, софт и развлечения</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li class="mCM__item">
+                                    <a class="mCM__item__link mCM__item__icon  mCM__item__linkArrowed js__mCM_link ">Электроника
+                                        <span class="js__mCM_linkClose" title="Развернуть"> </span>
+                                    </a>
+
+                                        <ul class="subCategoryMenu">
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Телефоны и гаджеты </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Планшенты и электрика</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Фото-видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">ТВ и Видео</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Аудиотехника</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Зарядка и элементы питания</a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Электронные сигареты, товары для курения </a>
+                                            </li>
+                                            <li class="sCM__item  active ">
+                                                <a href="./chose-page.html" class="sCM__item__link  js__mayGo " title="Телефоны и гаджеты">Игры, софт и развлечения</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a>
+                                    <span itemprop="title" title="Главная" class="ic__set ic__set__back">&nbsp;</span>
+                                </a>
+                            </li>
+                            <div class="breadcrumbs__item">
+                                <a href="#">
+                                    <span class="ic__set ic__set__back">&nbsp;</span>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="k_centered">
+                        <h1>Телефоны и гаджеты</h1>
+                    </div>
+
+                    <div class="drawCats drawCats__dummyes">
+                        <div class="drawCats__items">
+                            <div class="drawCats__item">
+                                <a href="/#" class="drawCats__item__link black">
+                                    <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg" class="drawCats__item__image">
+                                    <span class="drawCats__item__name">Смартфоны
+                                        <span class="itemCount">398</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="drawCats__item">
+                                <a href="/#" class="drawCats__item__link black">
+                                    <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg" class="drawCats__item__image">
+                                    <span class="drawCats__item__name">Смартфоны
+                                        <span class="itemCount">398</span>
+                                    </span>
+                                </a>
+                            </div><div class="drawCats__item">
+                            <a href="/#" class="drawCats__item__link black">
+                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg" class="drawCats__item__image">
+                                <span class="drawCats__item__name">Смартфоны
+                                        <span class="itemCount">398</span>
+                                    </span>
+                            </a>
+                        </div><div class="drawCats__item">
+                            <a href="/#" class="drawCats__item__link black">
+                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg" class="drawCats__item__image">
+                                <span class="drawCats__item__name">Смартфоны
+                                        <span class="itemCount">398</span>
+                                    </span>
+                            </a>
+                        </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="indexActions__headers">
+                        <a href="#" class="indexHeaders__link">Все акции</a>
+                        <h2 class="asH1">Акции</h2>
+                    </div>
+
+                    <div class="indexActions">
+                        <div class="indexActions_cover">
+                            <div class="indexActions__main js__indexActions__main swiperActive">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide indexActions__actionItem">
+                                            <div class="indexActions__actionItem"><a
+                                                    href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                    title="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__actionItem__image"><img
+                                                    src="https://static.onlinetrade.ru/img#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30__1691139929.jpg"
+                                                    alt="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__item__image"></a>
+                                                <div class="indexActions__actionItem__text"><a
+                                                        href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                        title="Настольные лампы к учебному году со скидкой 30%">Настольные
+                                                    лампы к учебному году со скидкой 30%</a>
+                                                    <p>Скидка 30% на настольные лампы в интернет-магазине
+                                                        compass.РУ.</p>
+                                                    <div class="indexActions__actionItem__date"><span class="gray">Действует</span>
+                                                        c 04.08.2023 по 02.10.2023 г.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide indexActions__actionItem">
+                                            <div class="indexActions__actionItem"><a
+                                                    href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                    title="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__actionItem__image"><img
+                                                    src="https://static.onlinetrade.ru/img#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30__1691139929.jpg"
+                                                    alt="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__item__image"></a>
+                                                <div class="indexActions__actionItem__text"><a
+                                                        href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                        title="Настольные лампы к учебному году со скидкой 30%">Настольные
+                                                    лампы к учебному году со скидкой 30%</a>
+                                                    <p>Скидка 30% на настольные лампы в интернет-магазине
+                                                        compass.РУ.</p>
+                                                    <div class="indexActions__actionItem__date"><span class="gray">Действует</span>
+                                                        c 04.08.2023 по 02.10.2023 г.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide indexActions__actionItem">
+                                            <div class="indexActions__actionItem"><a
+                                                    href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                    title="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__actionItem__image"><img
+                                                    src="https://static.onlinetrade.ru/img#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30__1691139929.jpg"
+                                                    alt="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__item__image"></a>
+                                                <div class="indexActions__actionItem__text"><a
+                                                        href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                        title="Настольные лампы к учебному году со скидкой 30%">Настольные
+                                                    лампы к учебному году со скидкой 30%</a>
+                                                    <p>Скидка 30% на настольные лампы в интернет-магазине
+                                                        compass.РУ.</p>
+                                                    <div class="indexActions__actionItem__date"><span class="gray">Действует</span>
+                                                        c 04.08.2023 по 02.10.2023 г.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide indexActions__actionItem">
+                                            <div class="indexActions__actionItem"><a
+                                                    href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                    title="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__actionItem__image"><img
+                                                    src="https://static.onlinetrade.ru/img#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30__1691139929.jpg"
+                                                    alt="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__item__image"></a>
+                                                <div class="indexActions__actionItem__text"><a
+                                                        href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                        title="Настольные лампы к учебному году со скидкой 30%">Настольные
+                                                    лампы к учебному году со скидкой 30%</a>
+                                                    <p>Скидка 30% на настольные лампы в интернет-магазине
+                                                        compass.РУ.</p>
+                                                    <div class="indexActions__actionItem__date"><span class="gray">Действует</span>
+                                                        c 04.08.2023 по 02.10.2023 г.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide indexActions__actionItem">
+                                            <div class="indexActions__actionItem"><a
+                                                    href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                    title="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__actionItem__image"><img
+                                                    src="https://static.onlinetrade.ru/img#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30__1691139929.jpg"
+                                                    alt="Настольные лампы к учебному году со скидкой 30%"
+                                                    class="indexActions__item__image"></a>
+                                                <div class="indexActions__actionItem__text"><a
+                                                        href="#nastolnye_lampy_k_uchebnomu_godu_so_skidkoy_30-a15587.html"
+                                                        title="Настольные лампы к учебному году со скидкой 30%">Настольные
+                                                    лампы к учебному году со скидкой 30%</a>
+                                                    <p>Скидка 30% на настольные лампы в интернет-магазине
+                                                        compass.РУ.</p>
+                                                    <div class="indexActions__actionItem__date"><span class="gray">Действует</span>
+                                                        c 04.08.2023 по 02.10.2023 г.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tileBrands js__tileBrands">
+                        <div class="k_centered">
+                            <div class="tileBrands__headers">
+                                <a href="#" class="indexHeaders__link">Все бренды</a>
+                                <h2 class="asH1">Бренды</h2>
+                            </div>
+                        </div>
+
+                        <div class="tileBrands__items">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="tileBrands__item">
+                                            <img src="https://static.onlinetrade.ru/img/brands/samsung_orig_wordmark_blue_rgb.png"
+                                                 class="tileBrands__item__image" loading="lazy">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="sliderBlock js__drawPopularCats">
+                        <div class="k_centered">
+                            <h2>Популярные категории</h2>
+                        </div>
+
+                        <div class="drawCats__items fullWidth">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="drawCats__item fullWidth">
+                                            <a href="#" class="drawCats__item__link black">
+                                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg?333"
+                                                class="drawCats__item__image" alt="Смартфоны" loading="lazy">
+                                                <span class="drawCats__item__name">Смартфоны</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="drawCats__item fullWidth">
+                                            <a href="#" class="drawCats__item__link black">
+                                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg?333"
+                                                     class="drawCats__item__image" alt="Смартфоны" loading="lazy">
+                                                <span class="drawCats__item__name">Смартфоны</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="drawCats__item fullWidth">
+                                            <a href="#" class="drawCats__item__link black">
+                                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg?333"
+                                                     class="drawCats__item__image" alt="Смартфоны" loading="lazy">
+                                                <span class="drawCats__item__name">Смартфоны</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="drawCats__item fullWidth">
+                                            <a href="#" class="drawCats__item__link black">
+                                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg?333"
+                                                     class="drawCats__item__image" alt="Смартфоны" loading="lazy">
+                                                <span class="drawCats__item__name">Смартфоны</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="drawCats__item fullWidth">
+                                            <a href="#" class="drawCats__item__link black">
+                                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg?333"
+                                                     class="drawCats__item__image" alt="Смартфоны" loading="lazy">
+                                                <span class="drawCats__item__name">Смартфоны</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="drawCats__item fullWidth">
+                                            <a href="#" class="drawCats__item__link black">
+                                                <img src="https://static.onlinetrade.ru/img/categories2/smartfony_13_1622019358.jpg?333"
+                                                     class="drawCats__item__image" alt="Смартфоны" loading="lazy">
+                                                <span class="drawCats__item__name">Смартфоны</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="clear" style="clear: both;"></div>
+
+
+
+        <div id="footer">
+            <div class="footer__infoline">
+                <div class="k_centered">
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                    <div class="footer__infoline__item">
+                        <span class="footer__infoline__item__icon footer__infoline__item__icon__geo">&nbsp;</span>
+                        <div class="footer__infoline__item__text">
+                            <a href="#" title="393 пункта выдачи заказов" class="nowrap">393 пункта</a>
+                            <span class="nowrap">выдачи заказов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__linksline">
+                <div class="k_centered">
+                    <div class="footer__linksline__logo">
+                        <a href="index.html" class="footer__logo">
+                            <img src="../assets/img/logo-dark.png" width="150" class="footer__logo__image"></a>
+                    </div>
+                    <div class="footer__linksline__contacts">
+                        <div class="footer__linksline__smo">
+                            <a href="#" title="Telegram" class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                            <a href="#" title="Telegram" class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                            <a href="#" title="Telegram" class="ic__social_24x20 ic__social_24x20__tg" target="_blank" rel="noopener">&nbsp;</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__linksline__links">
+                            <ul class="footer__links__column">
+                                    <li><h5>Compass</h5></li>
+                                    <li><a href="/info/about.html" title="О компании">О компании</a></li>
+                                    <li><a href="/info/vacancy.html" title="Вакансии">Вакансии</a></li>
+                                    <li><a href="http://ontrade.ru/" title="Дилерам">Дилерам</a></li>
+                                    <li><a href="/info/press_releases.html" title="Для прессы">Для прессы</a></li>
+                                    <li><a href="/news/" title="Новости">Новости</a></li>
+                            </ul>
+
+                            <ul class="footer__links__column">
+                                    <li><h5>Интернет-магазин</h5></li>
+                                    <li><a href="/catalogue/" title="Каталог товаров">Каталог товаров</a></li>
+                                    <li><a href="#" title="Пункты выдачи">Пункты выдачи</a></li>
+                                    <li><a href="/club/" title="Клуб ON-бонус">Клуб ON-бонус</a></li>
+                                    <li><a href="/info/garantii.html" title="Гарантийное обслуживание">Гарантийное обслуживание</a></li>
+                                    <li><a href="/info/payment.html" title="Оплата заказа">Оплата заказа</a></li>
+                            </ul>
+
+                            <ul class="footer__links__column">
+                                    <li><h5>Услуги</h5></li>
+                                    <li><a href="/info/delivery.html" title="Доставка">Доставка</a></li>
+                                    <li><a href="/info/selftake.html" title="Самовывоз">Самовывоз</a></li>
+                                    <li><a href="/info/service_centre.html" title="Сервисный центр">Сервис-центр</a></li>
+                            </ul>
+
+                            <ul class="footer__links__column">
+                                <li><h5>Услуги</h5></li>
+                                <a href="/info/privacy_policy.html" class="gray" title="Политика конфиденциальности Compass">Политика конфиденциальности</a>
+                                <li style="margin-top: 8px;"><a href="https://www.onlinetrade.ru/" class="gray" rel="nofollow" title="Полная версия сайта">Полная версия</a></li>
+                            </ul>
+                    </div>
+
+                    <div class="footer__countersline">
+                        <div class="k_centered">
+                            <div class="footer__countersline__middle">
+                                <span class="footer__copyright">© 
+                                    <a href="https://m.onlinetrade.ru" title="На главную страницу">Onlinetrade.ru</a> 
+                                    <span class="nowrap">1998–2023</span>
+                                </span>
+
+                                <img src="../assets/img/banks.png" height="27" alt="принимаем к оплате">
+                            </div>
+
+                            <div class="footer__countersline__market">
+                                <div class="siteAgeRate">16+</div>
+                            </div>
+
+                            <div class="footer__countersline__smo">
+                                Цены и условия действительны до:
+
+                                <span class="nowrap">02.08.2023 11:35</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+
+
+         <a href="#" class="totop-btn">  </a>
+
+        </div>
+
+    </div><!-- #main (end) -->
+
+
+    <script src="../assets/plugins/jquery/jq-1.11.1.js"></script>
+    <script src="../assets/plugins/swiper.js/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js/script.js"></script>
+
+</body>
+</html>

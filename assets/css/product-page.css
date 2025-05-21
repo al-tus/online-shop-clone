@@ -1,0 +1,60 @@
+.breadcrumbs__sublist {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 37px;
+    background: #fff;
+    box-shadow: 0 0 10px #999;
+    min-width: 300px;
+    z-index: 1914;
+    padding: 5px 0 10px;
+    line-height: 1.384;
+    border-radius: 3px;
+}
+
+.breadcrumbs__itemLink__linkArrowed {
+    padding-right: 51px;
+}
+.breadcrumbs__itemLink__linkArrowed:after {
+    content: '\25BC';
+    color: #ff7800;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    font-size: .7em;
+    margin-top: -0.8em;
+    transform: rotate(0) scaleY(.75);
+    transition-duration: 400ms;
+}
+
+.breadcrumbs__subitem {
+    padding: 5px 15px 4px;
+    max-width: 440px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.itemCount {
+    color: #999;
+}
+
+.drawCats .swiper__manage, .drawCats__item__name .itemCount {
+    display: none;
+}
+
+.tileBrands__items .tileBrands__item:nth-child(8n+8) {
+    margin-right: 0;
+}
+
+.content__6ColumnsGrid, .content__lastLine {
+    clear: both;
+    width: 100%;
+}
+
+.columnBlock__spoiledContent {
+    border-bottom: 2px solid #efefef;
+    padding: 10px 0;
+}
+
