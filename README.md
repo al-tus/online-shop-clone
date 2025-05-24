@@ -25,4 +25,6 @@ Just open `index.html` in your browser. No build tools or backend required.
 
 ## 🌐 Live Demo
 
-[GitHub Pages Link](https://al-tus.github.io/online-shop-clone/)
+GitHub Pages Link: Problem with the link - being finalized
+
+
