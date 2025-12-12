@@ -1,6 +1,6 @@
 # Online Shop Clone
 
-This project is a simplified online shop inspired by the design and layout of [OnlineTrade.ru](https://www.onlinetrade.ru/). The UI was built based on their styling approach, featuring both desktop and mobile versions.
+This project is a simplified online shop inspired by the design and layout of [OnlineTrade.ru](https://www.onlinetrade.ru/). The UI was built based on their styling approach, featuring both desktop and mobile versions
 
 ## 📱 Mobile Support
 
