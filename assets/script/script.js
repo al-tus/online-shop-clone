@@ -1,15 +1,13 @@
 function loadMobileVersion() {
-    if (window.innerWidth <= 768) { // Пример по ширине
-        // Перенаправить на мобильную версию, если она отдельная
-        if (!window.location.pathname.includes('/mobile-version/')) {
-            window.location.href = '/mobile-version' + window.location.pathname;
-        }
-    } else {
-         // Перенаправить на десктопную версию
-         if (window.location.pathname.includes('/mobile-version/')) {
-            window.location.href = window.location.pathname.replace('/mobile-version', '');
-        }
+  if (window.innerWidth <= 768) {
+    if (!window.location.pathname.includes('/mobile-version/')) {
+      window.location.href = 'mobile-version/';
     }
+  } else {
+    if (window.location.pathname.includes('/mobile-version/')) {
+      window.location.href = '../';
+    }
+  }
 }
 
 // Вызов при загрузке страницы и изменении размера окна
