@@ -1,16 +1,19 @@
 function loadMobileVersion() {
   const isMobile = window.innerWidth <= 768;
-  const isMobilePage = window.location.pathname.includes('/mobile-version/');
+  const path = window.location.pathname;
 
-  if (isMobile && !isMobilePage) {
-    window.location.href = '/online-shop-clone/mobile-version/';
+  const isMobilePath = path.includes('/mobile-version/');
+
+  if (isMobile && !isMobilePath) {
+    const fileName = path.split('/').pop();
+    window.location.href = `/online-shop-clone/mobile-version/${fileName}`;
   }
 
-  if (!isMobile && isMobilePage) {
-    window.location.href = '/online-shop-clone/';
+  if (!isMobile && isMobilePath) {
+    const fileName = path.split('/').pop();
+    window.location.href = `/online-shop-clone/${fileName}`;
   }
 }
-
 
 // Вызов при загрузке страницы и изменении размера окна
 window.addEventListener('load', loadMobileVersion);
