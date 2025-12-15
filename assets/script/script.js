@@ -1,18 +1,20 @@
 function loadMobileVersion() {
-  if (window.innerWidth <= 768) {
-    if (!window.location.pathname.includes('/mobile-version/')) {
-      window.location.href = 'mobile-version/';
-    }
-  } else {
-    if (window.location.pathname.includes('/mobile-version/')) {
-      window.location.href = '../';
-    }
+  const isMobile = window.innerWidth <= 768;
+  const isMobilePage = window.location.pathname.includes('/mobile-version/');
+
+  if (isMobile && !isMobilePage) {
+    window.location.href = '/online-shop-clone/mobile-version/';
+  }
+
+  if (!isMobile && isMobilePage) {
+    window.location.href = '/online-shop-clone/';
   }
 }
 
+
 // Вызов при загрузке страницы и изменении размера окна
-window.onload = loadMobileVersion;
-window.onresize = loadMobileVersion;
+window.addEventListener('load', loadMobileVersion);
+window.addEventListener('resize', loadMobileVersion);
 
 // Или использовать matchMedia для более чистого подхода
 const mediaQuery = window.matchMedia('(max-width: 768px)');
